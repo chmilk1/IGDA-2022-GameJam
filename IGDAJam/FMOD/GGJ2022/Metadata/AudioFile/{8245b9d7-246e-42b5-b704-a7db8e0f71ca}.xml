@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{8245b9d7-246e-42b5-b704-a7db8e0f71ca}">
+		<property name="assetPath">
+			<value>BotVoice03_1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.083129251700680279</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9683f997-d810-4d4d-9c07-b4d800768382}</destination>
+		</relationship>
+	</object>
+</objects>
