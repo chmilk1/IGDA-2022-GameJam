@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace Entities
@@ -21,6 +22,13 @@ namespace Entities
             
             _controls.Player.Move.performed += ApplyMovement;
             _controls.Player.Move.canceled += ApplyMovement;
+        }
+
+        private void OnDestroy()
+        {
+            _controls.Disable();
+            _controls.Dispose();
+            _controls = null;
         }
 
         public void ApplyMovement(InputAction.CallbackContext context)

@@ -7,6 +7,9 @@ namespace Gameplay
 {
     // Can spawn things into the game.
     // Use for spawning enemies, a restock station, or a boss.
+    
+    // todo: integrate into wave system being worked on
+    
     public class Wave : MonoBehaviour
     {
         [SerializeField] private Health[] prefabsToSpawn;
