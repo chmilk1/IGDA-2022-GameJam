@@ -7,17 +7,23 @@ namespace Entities
     {
         [Header("Settings")]
         [SerializeField] private int hitPoints = 1;
+        [SerializeField] private bool destroyOnDeath = true;
 
         [Space(20f)]
-        [SerializeField] private UnityEvent<Health> onDeath;
-        [SerializeField] private UnityEvent<Health> onDamage;
+        [SerializeField] public UnityEvent<Health> onDeath;
+        [SerializeField] public UnityEvent<Health> onDamage;
 
         public int RemainingHitPoints => hitPoints;
 
         public void Damage(int amount)
         {
             if (hitPoints - amount <= 0)
+            {
                 onDeath.Invoke(this);
+                
+                if (destroyOnDeath)
+                    Destroy(gameObject);
+            }
 
             hitPoints -= amount;
             onDamage.Invoke(this);

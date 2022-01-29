@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 namespace Entities
@@ -23,15 +24,17 @@ namespace Entities
             _controls.Player.Move.canceled += ApplyMovement;
         }
 
+        private void OnDestroy()
+        {
+            _controls.Disable();
+            _controls.Dispose();
+            _controls = null;
+        }
+
         public void ApplyMovement(InputAction.CallbackContext context)
         {
             _inputDirection = context.ReadValue<Vector2>();
             _rigidbody2D.velocity = _inputDirection * movementSpeed;
-        }
-
-        private void OnGUI()
-        {
-            GUILayout.Label($"Current Direction: {_inputDirection}");
         }
     }
 }
