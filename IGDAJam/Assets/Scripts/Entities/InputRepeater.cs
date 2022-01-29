@@ -6,10 +6,10 @@ namespace Entities
 {
     public class InputRepeater : MonoBehaviour
     {
-        [SerializeField] private float fireSpeed = 1f;
+        [SerializeField] private float attackCooldown = 1f;
         [SerializeField] private UnityEvent repeatEvent;
         
-        private float _lastShotTime;
+        private float _cooldownTime;
         private bool _holdingFire;
         private Controls _controls;
         
@@ -35,11 +35,13 @@ namespace Entities
 
         private void Update()
         {
-            if (_holdingFire && Time.time - _lastShotTime > fireSpeed)
+            if (_holdingFire && _cooldownTime <= 0)
             {
-                _lastShotTime = Time.time;
+                _cooldownTime = attackCooldown;
                 repeatEvent.Invoke();
             }
+
+            else _cooldownTime -= Time.deltaTime;
         }
     }
 }

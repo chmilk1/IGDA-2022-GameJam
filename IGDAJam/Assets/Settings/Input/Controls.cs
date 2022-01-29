@@ -33,6 +33,14 @@ public class @Controls : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""CycleDimension"",
+                    ""type"": ""Button"",
+                    ""id"": ""957c1260-8701-4a72-b09b-fd2bffe383ad"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -156,6 +164,17 @@ public class @Controls : IInputActionCollection, IDisposable
                     ""action"": ""Fire"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3d169956-41bb-4c82-a0a1-ac6f78a20556"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CycleDimension"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -172,6 +191,7 @@ public class @Controls : IInputActionCollection, IDisposable
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
         m_Player_Fire = m_Player.FindAction("Fire", throwIfNotFound: true);
+        m_Player_CycleDimension = m_Player.FindAction("CycleDimension", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -223,12 +243,14 @@ public class @Controls : IInputActionCollection, IDisposable
     private IPlayerActions m_PlayerActionsCallbackInterface;
     private readonly InputAction m_Player_Move;
     private readonly InputAction m_Player_Fire;
+    private readonly InputAction m_Player_CycleDimension;
     public struct PlayerActions
     {
         private @Controls m_Wrapper;
         public PlayerActions(@Controls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Move => m_Wrapper.m_Player_Move;
         public InputAction @Fire => m_Wrapper.m_Player_Fire;
+        public InputAction @CycleDimension => m_Wrapper.m_Player_CycleDimension;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -244,6 +266,9 @@ public class @Controls : IInputActionCollection, IDisposable
                 @Fire.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFire;
                 @Fire.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFire;
                 @Fire.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFire;
+                @CycleDimension.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnCycleDimension;
+                @CycleDimension.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnCycleDimension;
+                @CycleDimension.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnCycleDimension;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -254,6 +279,9 @@ public class @Controls : IInputActionCollection, IDisposable
                 @Fire.started += instance.OnFire;
                 @Fire.performed += instance.OnFire;
                 @Fire.canceled += instance.OnFire;
+                @CycleDimension.started += instance.OnCycleDimension;
+                @CycleDimension.performed += instance.OnCycleDimension;
+                @CycleDimension.canceled += instance.OnCycleDimension;
             }
         }
     }
@@ -271,5 +299,6 @@ public class @Controls : IInputActionCollection, IDisposable
     {
         void OnMove(InputAction.CallbackContext context);
         void OnFire(InputAction.CallbackContext context);
+        void OnCycleDimension(InputAction.CallbackContext context);
     }
 }

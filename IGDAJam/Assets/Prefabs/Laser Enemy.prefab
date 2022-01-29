@@ -13,8 +13,10 @@ GameObject:
   - component: {fileID: 2014606940093628021}
   - component: {fileID: 2014606940093628016}
   - component: {fileID: 8958083097296541279}
+  - component: {fileID: 6273883012391133827}
+  - component: {fileID: 2293409365564895718}
   m_Layer: 7
-  m_Name: Enemy
+  m_Name: Laser Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69,6 +71,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dc8a732797d491e8d305184782481e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  owner: {fileID: 0}
   targetLayers:
     serializedVersion: 2
     m_Bits: 64
@@ -88,7 +91,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cea08d529d819cb4e9cf0345a01bce67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeInterval: 2
+  timeInterval: 4
   onTimerEnd:
     m_PersistentCalls:
       m_Calls:
@@ -124,6 +127,64 @@ MonoBehaviour:
   onDamage:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6273883012391133827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014606940093628023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58a6df6b3fd0464db09d7ca31e8f3dbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentDimension: {fileID: 11400000, guid: 9d8f384fa34f7c742a03952c6e4dbe8d, type: 2}
+  onEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2293409365564895718}
+        m_TargetAssemblyTypeName: Entities.ColorChanger, Assembly-CSharp
+        m_MethodName: SetColorActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  onExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2293409365564895718}
+        m_TargetAssemblyTypeName: Entities.ColorChanger, Assembly-CSharp
+        m_MethodName: SetColorActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2293409365564895718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014606940093628023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f42385c14c584d799de55c985ab3180c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetRenderer: {fileID: 2014606940653429103}
+  activeColor: {r: 1, g: 0, b: 0, a: 1}
+  inactiveColor: {r: 1, g: 0, b: 0, a: 0.2901961}
 --- !u!1 &2014606940653429089
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,7 +258,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
-  m_Color: {r: 1, g: 0, b: 0.009601116, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -232,7 +293,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9008988579381069504, guid: bff07b63dbd135440870b3d6b72e9511, type: 3}
       propertyPath: m_Name
-      value: Bullet Emmiter
+      value: Laser Emmiter
       objectReference: {fileID: 0}
     - target: {fileID: 9008988579381069504, guid: bff07b63dbd135440870b3d6b72e9511, type: 3}
       propertyPath: m_Layer
@@ -244,7 +305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9008988579381069506, guid: bff07b63dbd135440870b3d6b72e9511, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9008988579381069506, guid: bff07b63dbd135440870b3d6b72e9511, type: 3}
       propertyPath: m_LocalPosition.y

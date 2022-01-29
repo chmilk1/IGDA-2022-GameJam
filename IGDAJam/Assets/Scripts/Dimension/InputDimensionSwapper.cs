@@ -13,9 +13,7 @@ namespace Entities
         {
             _controls = new Controls();
             _controls.Enable();
-            _controls.Player.Move.started += _ => CycleDimensions();
-            
-            UpdateActiveDimension();
+            _controls.Player.CycleDimension.started += _ => CycleDimensions();
         }
 
         private void OnDestroy()
@@ -27,13 +25,20 @@ namespace Entities
 
         private void CycleDimensions()
         {
-            _currentDimensionIndex = (_currentDimensionIndex + 1) % dimensions.Length;
-            UpdateActiveDimension();
+            int targetIndex = (_currentDimensionIndex + 1) % dimensions.Length;
+            UpdateDimensionIndex(targetIndex);
         }
 
-        private void UpdateActiveDimension()
+        private void UpdateDimensionIndex(int index)
         {
-            
+            dimensions[_currentDimensionIndex].Exit();
+            _currentDimensionIndex = index;
+            dimensions[_currentDimensionIndex].Enter();
+        }
+
+        private void OnGUI()
+        {
+            GUILayout.Label($"Current dimension: {dimensions[_currentDimensionIndex].name}");
         }
     }
 }
