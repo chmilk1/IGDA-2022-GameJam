@@ -1,5 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using UnityEngine;
 
 namespace Gameplay
@@ -9,12 +8,13 @@ namespace Gameplay
     {
         [SerializeField] private Wave[] waves;
         [SerializeField] private bool autoRun = true;
-        
+
         private async void Awake()
         {
             if (autoRun == false)
                 return;
-            
+
+            Debug.Log("Running stage.");
             bool result = await Run();
             Debug.Log($"Result: {result}");
         }
@@ -27,6 +27,7 @@ namespace Gameplay
         {
             foreach (var wave in waves)
             {
+                Debug.Log($"Entered {wave.name}.");
                 bool completedWave = await wave.Run();
 
                 if (completedWave == false)

@@ -284,7 +284,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc98e26559b24943882d1d2365b5bf9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabsToSpawn: []
+  prefabsToSpawn:
+  - {fileID: 823958433396844159, guid: 49455a13b8937264e8bf1889a63e9773, type: 3}
   player: {fileID: 975283265}
 --- !u!1 &261029757
 GameObject:
@@ -408,6 +409,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   damage: 1
+  onHit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!61 &261029762
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -477,7 +481,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc98e26559b24943882d1d2365b5bf9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabsToSpawn: []
+  prefabsToSpawn:
+  - {fileID: 823958433396844159, guid: 49455a13b8937264e8bf1889a63e9773, type: 3}
   player: {fileID: 975283265}
 --- !u!1 &334726586
 GameObject:
@@ -522,7 +527,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc98e26559b24943882d1d2365b5bf9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabsToSpawn: []
+  prefabsToSpawn:
+  - {fileID: 823958433396844159, guid: 49455a13b8937264e8bf1889a63e9773, type: 3}
   player: {fileID: 975283265}
 --- !u!1001 &450299422
 PrefabInstance:
@@ -859,7 +865,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc98e26559b24943882d1d2365b5bf9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabsToSpawn: []
+  prefabsToSpawn:
+  - {fileID: 823958433396844159, guid: 49455a13b8937264e8bf1889a63e9773, type: 3}
   player: {fileID: 975283265}
 --- !u!1 &973400676
 GameObject:
@@ -904,7 +911,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc98e26559b24943882d1d2365b5bf9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabsToSpawn: []
+  prefabsToSpawn:
+  - {fileID: 823958433396844159, guid: 49455a13b8937264e8bf1889a63e9773, type: 3}
   player: {fileID: 975283265}
 --- !u!1 &975283261
 GameObject:
@@ -987,6 +995,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitPoints: 3
+  destroyOnDeath: 1
+  showDebug: 0
   onDeath:
     m_PersistentCalls:
       m_Calls: []
@@ -1036,7 +1046,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc98e26559b24943882d1d2365b5bf9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabsToSpawn: []
+  prefabsToSpawn:
+  - {fileID: 823958433396844159, guid: 49455a13b8937264e8bf1889a63e9773, type: 3}
   player: {fileID: 975283265}
 --- !u!1 &1388266021
 GameObject:
@@ -1081,7 +1092,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc98e26559b24943882d1d2365b5bf9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabsToSpawn: []
+  prefabsToSpawn:
+  - {fileID: 823958433396844159, guid: 49455a13b8937264e8bf1889a63e9773, type: 3}
   player: {fileID: 975283265}
 --- !u!1 &1432185834
 GameObject:
@@ -1136,6 +1148,7 @@ MonoBehaviour:
   - {fileID: 206986557}
   - {fileID: 2026177061}
   - {fileID: 280900971}
+  autoRun: 1
 --- !u!1 &1701909401
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,7 +1192,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc98e26559b24943882d1d2365b5bf9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabsToSpawn: []
+  prefabsToSpawn:
+  - {fileID: 823958433396844159, guid: 49455a13b8937264e8bf1889a63e9773, type: 3}
   player: {fileID: 975283265}
 --- !u!1 &1770853872
 GameObject:
@@ -1406,7 +1420,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc98e26559b24943882d1d2365b5bf9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabsToSpawn: []
+  prefabsToSpawn:
+  - {fileID: 823958433396844159, guid: 49455a13b8937264e8bf1889a63e9773, type: 3}
   player: {fileID: 975283265}
 --- !u!1 &2119167237
 GameObject:

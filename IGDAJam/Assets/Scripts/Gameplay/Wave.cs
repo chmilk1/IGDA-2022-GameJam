@@ -13,10 +13,12 @@ namespace Gameplay
         [SerializeField] private Health player;
 
         private int _remainingEnemies;
+        private bool _playerIsDead;
         
         private void Awake()
         {
             _remainingEnemies = prefabsToSpawn.Length;
+            player.onDeath.AddListener(OnPlayerDeath);
         }
 
         public async Task<bool> Run()
@@ -40,10 +42,12 @@ namespace Gameplay
         {
             while (_remainingEnemies > 0)
             {
-                if (player.IsDead)
+                Debug.Log(_remainingEnemies);
+                
+                if (_playerIsDead)
                     return false;
 
-                await Task.Yield();
+                await Task.Delay(500);
             }
 
             return true;
@@ -52,6 +56,11 @@ namespace Gameplay
         private void OnEnemyDeath(Health _)
         {
             _remainingEnemies--;
+        }
+
+        private void OnPlayerDeath(Health _)
+        {
+            _playerIsDead = true;
         }
     }
 }

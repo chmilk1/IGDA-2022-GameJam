@@ -28,10 +28,5 @@ namespace Entities
             _inputDirection = context.ReadValue<Vector2>();
             _rigidbody2D.velocity = _inputDirection * movementSpeed;
         }
-
-        private void OnGUI()
-        {
-            GUILayout.Label($"Current Direction: {_inputDirection}");
-        }
     }
 }
