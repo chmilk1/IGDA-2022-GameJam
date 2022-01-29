@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Player
+namespace Entities
 {
     [RequireComponent(typeof(Rigidbody2D))]
     public class InputMovement : MonoBehaviour
     {
+        [Header("Settings")]
         [SerializeField] private float movementSpeed;
         
         private Rigidbody2D _rigidbody2D;
