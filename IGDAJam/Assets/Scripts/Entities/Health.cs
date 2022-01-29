@@ -9,10 +9,11 @@ namespace Entities
         [SerializeField] private int hitPoints = 1;
 
         [Space(20f)]
-        [SerializeField] private UnityEvent<Health> onDeath;
-        [SerializeField] private UnityEvent<Health> onDamage;
+        [SerializeField] public UnityEvent<Health> onDeath;
+        [SerializeField] public UnityEvent<Health> onDamage;
 
         public int RemainingHitPoints => hitPoints;
+        public bool IsDead => hitPoints <= 0;
 
         public void Damage(int amount)
         {
