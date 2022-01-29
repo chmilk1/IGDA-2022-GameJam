@@ -8,7 +8,6 @@ namespace Entities
         [Header("Settings")]
         [SerializeField] private int hitPoints = 1;
         [SerializeField] private bool destroyOnDeath = true;
-        [SerializeField] private bool showDebug;
 
         [Space(20f)]
         [SerializeField] public UnityEvent<Health> onDeath;
