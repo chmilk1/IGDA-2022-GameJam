@@ -5,7 +5,7 @@
 			<value>Cha-ching</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d445fd13-420b-4025-b782-5c4e789e10d6}</destination>
@@ -90,7 +90,14 @@
 			<destination>{02b3507b-4f70-4795-aa55-44ea16e5496c}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{de078b74-fd05-4024-971c-8cf1aa736d17}" />
+	<object class="MultiSound" id="{de078b74-fd05-4024-971c-8cf1aa736d17}">
+		<property name="playbackMode">
+			<value>1</value>
+		</property>
+		<relationship name="sounds">
+			<destination>{72424c55-25e8-4f54-8b8f-ce96fec6a8fa}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{7ae4e214-c8cd-424f-9f4e-b194a161063b}">
 		<relationship name="effects">
 			<destination>{7b1801f9-e09c-4237-a14b-913be3cbea94}</destination>
@@ -117,6 +124,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4a75b162-759d-49c5-be78-69b5d3fc6050}" />
+	<object class="SingleSound" id="{72424c55-25e8-4f54-8b8f-ce96fec6a8fa}">
+		<relationship name="audioFile">
+			<destination>{87740f95-e4df-4ef1-a336-cd3d5911298f}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{7b1801f9-e09c-4237-a14b-913be3cbea94}" />
 	<object class="MixerBusEffectChain" id="{c3f8b6c6-0c5a-4fac-8d37-5fa0cdc47233}">
 		<relationship name="effects">

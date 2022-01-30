@@ -5,7 +5,7 @@
 			<value>Hit</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{606a2641-abed-4d1d-a5fd-2079b8a77724}</destination>
@@ -90,7 +90,11 @@
 			<destination>{a6f5bbd4-487a-4047-a652-63eac9818260}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{07b22215-a6e7-43d2-839b-4c491e4788da}" />
+	<object class="MultiSound" id="{07b22215-a6e7-43d2-839b-4c491e4788da}">
+		<relationship name="sounds">
+			<destination>{cb7e477d-c455-433e-886b-f52cc2f1fa25}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{efcb5444-9f1e-4f87-b2d9-0a1d7d955f73}">
 		<relationship name="effects">
 			<destination>{e7b1aa91-c16a-4dc0-8819-1bff69d530b4}</destination>
@@ -114,9 +118,16 @@
 	<object class="MixerBusEffectChain" id="{2fc5ee6c-7401-4cc1-844b-009762da7bf6}">
 		<relationship name="effects">
 			<destination>{24e7504a-5c61-4339-9c31-3c7551d7da27}</destination>
+			<destination>{3d23f13b-15cb-4101-af6d-57d58305eba6}</destination>
+			<destination>{18be0ff3-9d07-4bf0-94db-0aa2b008d451}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9011b67e-f85c-4f58-8a7f-0931d036a3ab}" />
+	<object class="SingleSound" id="{cb7e477d-c455-433e-886b-f52cc2f1fa25}">
+		<relationship name="audioFile">
+			<destination>{11fed4fd-4cf4-42ed-89eb-7dfd69100c20}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{e7b1aa91-c16a-4dc0-8819-1bff69d530b4}" />
 	<object class="MixerBusEffectChain" id="{3f77faf1-8581-4539-b323-9681bf7a1a9c}">
 		<relationship name="effects">
@@ -125,5 +136,15 @@
 	</object>
 	<object class="MixerBusPanner" id="{1ec361d3-d287-4db7-8f17-4aec66caff65}" />
 	<object class="MixerBusFader" id="{24e7504a-5c61-4339-9c31-3c7551d7da27}" />
+	<object class="HighpassEffect" id="{3d23f13b-15cb-4101-af6d-57d58305eba6}">
+		<property name="cutoff">
+			<value>800</value>
+		</property>
+	</object>
+	<object class="LowpassEffect" id="{18be0ff3-9d07-4bf0-94db-0aa2b008d451}">
+		<property name="cutoff">
+			<value>2600</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{9b20241b-9338-4a2f-a4fb-9ba957a81de0}" />
 </objects>
