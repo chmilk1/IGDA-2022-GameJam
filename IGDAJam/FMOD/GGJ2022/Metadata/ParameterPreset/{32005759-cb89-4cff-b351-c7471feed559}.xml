@@ -5,7 +5,7 @@
 			<value>Speed</value>
 		</property>
 		<relationship name="folder">
-			<destination>{885f8cfb-270f-4b8d-95a4-0f155c07f323}</destination>
+			<destination>{12265f38-ba83-4d4f-b146-0a80d9c2744a}</destination>
 		</relationship>
 		<relationship name="parameter">
 			<destination>{f60d511e-899b-4737-a0a5-0d798a36cd6c}</destination>

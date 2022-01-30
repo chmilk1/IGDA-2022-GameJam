@@ -5,7 +5,7 @@
 			<value>Music</value>
 		</property>
 		<relationship name="folder">
-			<destination>{a3c05e35-00ae-41da-98e1-b18a930f464d}</destination>
+			<destination>{80089720-fa2c-427b-89be-1d28eb904bc2}</destination>
 		</relationship>
 	</object>
 </objects>
