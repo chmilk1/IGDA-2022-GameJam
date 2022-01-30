@@ -95,8 +95,8 @@ MonoBehaviour:
   onTimerEnd:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2014606940434026883}
-        m_TargetAssemblyTypeName: BulletEmmiter, Assembly-CSharp
+      - m_Target: {fileID: 9175369233042692221}
+        m_TargetAssemblyTypeName: ParentingEmmiter, Assembly-CSharp
         m_MethodName: fire
         m_Mode: 1
         m_Arguments:
@@ -381,14 +381,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9008988579381069506, guid: bff07b63dbd135440870b3d6b72e9511, type: 3}
   m_PrefabInstance: {fileID: 7418283144061916994}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2014606940434026883 stripped
+--- !u!114 &9175369233042692221 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9008988579381069505, guid: bff07b63dbd135440870b3d6b72e9511, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1848301601171361599, guid: bff07b63dbd135440870b3d6b72e9511, type: 3}
   m_PrefabInstance: {fileID: 7418283144061916994}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d452e237d560f1f43b758464fc6b33c2, type: 3}
+  m_Script: {fileID: 11500000, guid: 2a050b49eb559764580406c2ec2c0351, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

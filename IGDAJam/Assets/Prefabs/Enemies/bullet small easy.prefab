@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 8958083097296541279}
   - component: {fileID: 8580092758665628205}
   - component: {fileID: 3174905343139228122}
+  - component: {fileID: 5211498073458786379}
   m_Layer: 7
   m_Name: bullet small easy
   m_TagString: Untagged
@@ -305,6 +306,22 @@ MonoBehaviour:
   targetRenderer: {fileID: 5480552587623861790}
   activeColor: {r: 1, g: 1, b: 1, a: 1}
   inactiveColor: {r: 1, g: 1, b: 1, a: 0.2901961}
+--- !u!114 &5211498073458786379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014606940093628023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 372dbaacf73e9cf45ade6770e7a7c426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xSpeed: 0.5
+  ySpeed: 0.25
+  yScreenPrecent: 0.6
+  rigidbody2d: {fileID: 2014606940093628018}
 --- !u!1001 &7418283144061916994
 PrefabInstance:
   m_ObjectHideFlags: 0

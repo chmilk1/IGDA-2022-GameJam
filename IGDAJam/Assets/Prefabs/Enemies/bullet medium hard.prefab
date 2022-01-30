@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8958083097296541279}
   - component: {fileID: 8580092758665628205}
   - component: {fileID: 3174905343139228122}
+  - component: {fileID: -2465353428963757305}
   m_Layer: 7
   m_Name: bullet medium hard
   m_TagString: Untagged
@@ -187,6 +188,25 @@ MonoBehaviour:
   targetRenderer: {fileID: 6748496298103113498}
   activeColor: {r: 1, g: 1, b: 1, a: 1}
   inactiveColor: {r: 1, g: 1, b: 1, a: 0.2901961}
+--- !u!114 &-2465353428963757305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014606940093628023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 372dbaacf73e9cf45ade6770e7a7c426, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xSpeed: 0.5
+  ySpeed: 0.25
+  yScreenPrecent: 0.75
+  rigidbody2d: {fileID: 2014606940093628018}
+  onTimerEnd:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2732900922244607520
 GameObject:
   m_ObjectHideFlags: 0
