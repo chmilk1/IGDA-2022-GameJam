@@ -8,6 +8,7 @@ public class ParentingEmmiter : MonoBehaviour
 
     public void fire()
     {
-        Instantiate(projectile, transform);
+        GameObject gb = Instantiate(projectile, transform);
+        
     }
 }
