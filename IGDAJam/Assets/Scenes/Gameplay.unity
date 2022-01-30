@@ -1695,11 +1695,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1885001234 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2730438613686885937, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
-  m_PrefabInstance: {fileID: 5253297237829070058}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1914008099 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5567063503955828942, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
@@ -2019,11 +2014,11 @@ PrefabInstance:
     - target: {fileID: 975283262, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
       propertyPath: dimensions.Array.data[0].playerShip
       value: 
-      objectReference: {fileID: 1885001234}
+      objectReference: {fileID: 5253297237829070060}
     - target: {fileID: 975283262, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
       propertyPath: dimensions.Array.data[1].playerShip
       value: 
-      objectReference: {fileID: 1885001234}
+      objectReference: {fileID: 5253297237829070059}
     - target: {fileID: 5253297237193525460, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -2254,3 +2249,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
+--- !u!1 &5253297237829070059 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6148028451100685715, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
+  m_PrefabInstance: {fileID: 5253297237829070058}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5253297237829070060 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4271512780672778342, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
+  m_PrefabInstance: {fileID: 5253297237829070058}
+  m_PrefabAsset: {fileID: 0}
