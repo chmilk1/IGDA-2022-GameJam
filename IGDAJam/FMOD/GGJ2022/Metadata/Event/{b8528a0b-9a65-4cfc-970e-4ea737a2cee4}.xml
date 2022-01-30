@@ -456,10 +456,13 @@
 			<value>-24</value>
 		</property>
 		<property name="ratio">
-			<value>2.4000001</value>
+			<value>6.5999999</value>
 		</property>
 		<property name="attackTime">
-			<value>0.100000001</value>
+			<value>0.200000003</value>
+		</property>
+		<property name="releaseTime">
+			<value>10</value>
 		</property>
 		<property name="gain">
 			<value>10.5</value>
