@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{0487fe77-b38c-40c7-8830-9215153db431}">
+		<property name="assetPath">
+			<value>Swells_1.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>96.616349206349213</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7e2d05cc-2dfc-4e37-91a9-86340d7aead9}</destination>
+		</relationship>
+	</object>
+</objects>
