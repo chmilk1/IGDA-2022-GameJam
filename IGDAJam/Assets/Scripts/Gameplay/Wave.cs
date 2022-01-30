@@ -45,8 +45,6 @@ namespace Gameplay
         {
             while (_remainingEnemies > 0)
             {
-                Debug.Log(_remainingEnemies);
-                
                 if (_playerIsDead)
                     return false;
 

@@ -11,6 +11,11 @@ namespace Entities
         
         private void Awake()
         {
+            foreach (var dimension in dimensions)
+                dimension.Exit();
+
+            dimensions[0].Enter();
+            
             _controls = new Controls();
             _controls.Enable();
             _controls.Player.CycleDimension.started += _ => CycleDimensions();
