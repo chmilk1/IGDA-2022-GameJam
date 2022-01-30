@@ -19,7 +19,8 @@ namespace Entities
 
         private void Start()
         {
-            healthDisplay.UpdateText(hitPoints.ToString());
+            if (healthDisplay != null)
+                healthDisplay.UpdateText(hitPoints.ToString());
         }
 
         public void Damage(int amount)
@@ -35,7 +36,8 @@ namespace Entities
             hitPoints -= amount;
             onDamage.Invoke(this);
             
-            healthDisplay.UpdateText(hitPoints.ToString());
+            if (healthDisplay != null)
+                healthDisplay.UpdateText(hitPoints.ToString());
         }
     }
 }

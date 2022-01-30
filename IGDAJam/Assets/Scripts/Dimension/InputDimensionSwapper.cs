@@ -11,7 +11,7 @@ namespace Entities
         private int _currentDimensionIndex;
         private Controls _controls;
         
-        private void Awake()
+        private void Start()
         {
             foreach (var dimension in dimensions)
                 dimension.Exit();
@@ -45,11 +45,6 @@ namespace Entities
             dimensions[_currentDimensionIndex].Enter();
             
             currentDimensionDisplay.UpdateText($"Current Dimension: {dimensions[_currentDimensionIndex].name}");
-        }
-
-        private void OnGUI()
-        {
-            GUILayout.Label($"Current dimension: {dimensions[_currentDimensionIndex].name}");
         }
     }
 }

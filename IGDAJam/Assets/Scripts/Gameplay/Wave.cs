@@ -26,7 +26,7 @@ namespace Gameplay
         private bool _playerIsDead;
         private Vector2 _screenBounds;
         
-        private void Awake()
+        private void Start()
         {
             if (Camera.main != null)
                 _screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
@@ -49,7 +49,8 @@ namespace Gameplay
                 float ySpawn = Random.Range(-_screenBounds.x, _screenBounds.x);
                 var spawnPos = new Vector2(ySpawn, xSpawn);
                 
-                Health newEnemy = Instantiate(health, spawnPos, quaternion.identity);
+                Health newEnemy = Instantiate(health);
+                newEnemy.transform.position = spawnPos;
                 newEnemy.onDeath.AddListener(OnEnemyDeath);
                 
                 yield return new WaitForSeconds(spawnDelay);

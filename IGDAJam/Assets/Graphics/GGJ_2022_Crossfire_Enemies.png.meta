@@ -1,0 +1,1128 @@
+fileFormatVersion: 2
+guid: e5951b6ce9cc27c4b9d49a76eadc97ed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -965258074961727232
+    second: GGJ_2022_Crossfire_Enemies_0
+  - first:
+      213: 8833742243387109434
+    second: GGJ_2022_Crossfire_Enemies_1
+  - first:
+      213: -2906730286534594693
+    second: GGJ_2022_Crossfire_Enemies_2
+  - first:
+      213: 4197064568627727679
+    second: GGJ_2022_Crossfire_Enemies_3
+  - first:
+      213: -7081192792316951674
+    second: GGJ_2022_Crossfire_Enemies_4
+  - first:
+      213: -3133604749019177838
+    second: GGJ_2022_Crossfire_Enemies_5
+  - first:
+      213: -6807008932642507186
+    second: GGJ_2022_Crossfire_Enemies_6
+  - first:
+      213: -3379955243222213929
+    second: GGJ_2022_Crossfire_Enemies_7
+  - first:
+      213: 7864844371151695649
+    second: GGJ_2022_Crossfire_Enemies_8
+  - first:
+      213: 4185000629958134228
+    second: GGJ_2022_Crossfire_Enemies_9
+  - first:
+      213: -1239247963859514314
+    second: GGJ_2022_Crossfire_Enemies_10
+  - first:
+      213: -6611861883810587786
+    second: GGJ_2022_Crossfire_Enemies_11
+  - first:
+      213: -9109055399158395292
+    second: GGJ_2022_Crossfire_Enemies_12
+  - first:
+      213: -972786390966470276
+    second: GGJ_2022_Crossfire_Enemies_13
+  - first:
+      213: -8725586795997955978
+    second: GGJ_2022_Crossfire_Enemies_14
+  - first:
+      213: -896920485981203053
+    second: GGJ_2022_Crossfire_Enemies_15
+  - first:
+      213: 1359930417500653665
+    second: GGJ_2022_Crossfire_Enemies_16
+  - first:
+      213: -2653815656369790951
+    second: GGJ_2022_Crossfire_Enemies_17
+  - first:
+      213: 5088901660441725055
+    second: GGJ_2022_Crossfire_Enemies_18
+  - first:
+      213: -4494271494436127698
+    second: GGJ_2022_Crossfire_Enemies_19
+  - first:
+      213: 3195354569647721237
+    second: GGJ_2022_Crossfire_Enemies_20
+  - first:
+      213: 8289314353540951153
+    second: GGJ_2022_Crossfire_Enemies_21
+  - first:
+      213: -2125303241823468610
+    second: GGJ_2022_Crossfire_Enemies_22
+  - first:
+      213: 2774525360911083979
+    second: GGJ_2022_Crossfire_Enemies_23
+  - first:
+      213: 662416902755889132
+    second: GGJ_2022_Crossfire_Enemies_24
+  - first:
+      213: -5721126664542213948
+    second: GGJ_2022_Crossfire_Enemies_25
+  - first:
+      213: -4698666128015906400
+    second: GGJ_2022_Crossfire_Enemies_26
+  - first:
+      213: -9129622468388315609
+    second: GGJ_2022_Crossfire_Enemies_27
+  - first:
+      213: 8367136746135442996
+    second: GGJ_2022_Crossfire_Enemies_28
+  - first:
+      213: 3149489601498134229
+    second: GGJ_2022_Crossfire_Enemies_29
+  - first:
+      213: 1849122274841417979
+    second: GGJ_2022_Crossfire_Enemies_30
+  - first:
+      213: -3317007774697484269
+    second: GGJ_2022_Crossfire_Enemies_31
+  - first:
+      213: 8020160516258737611
+    second: GGJ_2022_Crossfire_Enemies_32
+  - first:
+      213: -4703272588994871721
+    second: GGJ_2022_Crossfire_Enemies_33
+  - first:
+      213: 9180142227706293671
+    second: GGJ_2022_Crossfire_Enemies_34
+  - first:
+      213: -2043521873250864194
+    second: GGJ_2022_Crossfire_Enemies_35
+  - first:
+      213: 4054145192931351333
+    second: GGJ_2022_Crossfire_Enemies_36
+  - first:
+      213: -7885608820778391735
+    second: GGJ_2022_Crossfire_Enemies_37
+  - first:
+      213: -2341391320085167054
+    second: GGJ_2022_Crossfire_Enemies_38
+  - first:
+      213: -6791144315940938597
+    second: GGJ_2022_Crossfire_Enemies_39
+  - first:
+      213: 151491675741920948
+    second: GGJ_2022_Crossfire_Enemies_40
+  - first:
+      213: -1409713355170937582
+    second: GGJ_2022_Crossfire_Enemies_41
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 13
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001345d15e6ba92f0800000000000000
+      internalID: -965258074961727232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 12
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30737664c1c79a70800000000000000
+      internalID: 8833742243387109434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 11
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f6c35743839a7d0800000000000000
+      internalID: -2906730286534594693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 13
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d0f68fcf7fe3a30800000000000000
+      internalID: 4197064568627727679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_4
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 12
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68344e35cac8abd90800000000000000
+      internalID: -7081192792316951674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_5
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 11
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c1c3455133384d0800000000000000
+      internalID: -3133604749019177838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_6
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46beead075a881a0800000000000000
+      internalID: -6807008932642507186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_7
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da55033d9cf711d0800000000000000
+      internalID: -3379955243222213929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_8
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f2a3c294a852d60800000000000000
+      internalID: 7864844371151695649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_9
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9c07d56eb141a30800000000000000
+      internalID: 4185000629958134228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_10
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c078dea8e4dcee0800000000000000
+      internalID: -1239247963859514314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_11
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b5687d5a2fd34a0800000000000000
+      internalID: -6611861883810587786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_12
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 3
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e4fc55062269180800000000000000
+      internalID: -9109055399158395292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_13
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 3
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79fb147ee7ff72f0800000000000000
+      internalID: -972786390966470276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_14
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 3
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678f3b70a0d78e680800000000000000
+      internalID: -8725586795997955978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_15
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 3
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395d151f19f7d83f0800000000000000
+      internalID: -896920485981203053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_16
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 3
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168006e62817fd210800000000000000
+      internalID: 1359930417500653665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_17
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 3
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91065b698b0cb2bd0800000000000000
+      internalID: -2653815656369790951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_18
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 13
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78468719196f9640800000000000000
+      internalID: 5088901660441725055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_19
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 14
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c78f133e321a1c0800000000000000
+      internalID: -4494271494436127698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_20
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 14
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b06472d0e285c20800000000000000
+      internalID: 3195354569647721237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_21
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 14
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cea526c7f890370800000000000000
+      internalID: 8289314353540951153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_22
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 13
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3402f36f76182e0800000000000000
+      internalID: -2125303241823468610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_23
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 14
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9ea6d9d18118620800000000000000
+      internalID: 2774525360911083979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_24
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 14
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefaaf5d9a0613900800000000000000
+      internalID: 662416902755889132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_25
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 14
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c822f44c997a90b0800000000000000
+      internalID: -5721126664542213948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_26
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 5
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9a3791d0cfaceb0800000000000000
+      internalID: -4698666128015906400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_27
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 6
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e1a4e5cb01d4180800000000000000
+      internalID: -9129622468388315609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_28
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 5
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43655842a8a0e1470800000000000000
+      internalID: 8367136746135442996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_29
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 6
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d635191b1c35bb20800000000000000
+      internalID: 3149489601498134229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_30
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 5
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf85f2279e669a910800000000000000
+      internalID: 1849122274841417979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_31
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 6
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31092ffc00f97f1d0800000000000000
+      internalID: -3317007774697484269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_32
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 5
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd27353f755d4f60800000000000000
+      internalID: 8020160516258737611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_33
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 5
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ef023df7e9abeb0800000000000000
+      internalID: -4703272588994871721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_34
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 1
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad2ff5b7ba666f70800000000000000
+      internalID: 9180142227706293671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_35
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 1
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3342eeea3f3a3e0800000000000000
+      internalID: -2043521873250864194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_36
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 1
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bd78cb297334830800000000000000
+      internalID: 4054145192931351333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_37
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94721d7ae80b09290800000000000000
+      internalID: -7885608820778391735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_38
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 1
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2340426eff4b18fd0800000000000000
+      internalID: -2341391320085167054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_39
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c5de5c93201c1a0800000000000000
+      internalID: -6791144315940938597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_40
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 1
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be960f50e43a1200800000000000000
+      internalID: 151491675741920948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Enemies_41
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 1
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21589e52c21bf6ce0800000000000000
+      internalID: -1409713355170937582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

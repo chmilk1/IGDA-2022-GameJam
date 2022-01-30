@@ -11,7 +11,7 @@ public class BulletLogic : MonoBehaviour
 
     private void Awake()
     {
-        rigidbody2d.velocity = transform.right * speed;
+        rigidbody2d.velocity = transform.up * speed;
     }
 
     public void onHit()
