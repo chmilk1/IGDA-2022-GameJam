@@ -11,6 +11,8 @@ namespace Entities
         [SerializeField] private int hitPoints = 1;
         [SerializeField] private bool destroyOnDeath = true;
         [SerializeField] private Display healthDisplay;
+        [SerializeField] public bool explodes;
+        [SerializeField] public GameObject explosion;
         [SerializeField] public bool isPlayer;
         [SerializeField] public float invulnTime;
 
@@ -49,7 +51,10 @@ namespace Entities
                 if (RemainingHitPoints - amount <= 0)
                 {
                     onDeath.Invoke(this);
-
+                    if (explodes)
+                    {
+                        Instantiate(explosion, this.transform.position, this.transform.rotation);
+                    }
                     if (destroyOnDeath)
                         Destroy(gameObject);
                 }
