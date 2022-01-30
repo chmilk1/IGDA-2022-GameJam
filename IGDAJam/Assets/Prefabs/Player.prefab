@@ -344,7 +344,7 @@ MonoBehaviour:
   destroyOnDeath: 1
   healthDisplay: {fileID: 3828883356327127466}
   isPlayer: 1
-  invulnTime: 0.66
+  invulnTime: 0.44
   onDeath:
     m_PersistentCalls:
       m_Calls: []
