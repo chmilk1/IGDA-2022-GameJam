@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
+using Display = UI.Display;
 
 namespace Entities
 {
     public class InputDimensionSwapper : MonoBehaviour
     {
         [SerializeField] private Dimension[] dimensions;
-
+        [SerializeField] private Display currentDimensionDisplay;
+        
         private int _currentDimensionIndex;
         private Controls _controls;
         
@@ -14,7 +16,7 @@ namespace Entities
             foreach (var dimension in dimensions)
                 dimension.Exit();
 
-            dimensions[0].Enter();
+            UpdateDimensionIndex(0);
             
             _controls = new Controls();
             _controls.Enable();
@@ -23,6 +25,8 @@ namespace Entities
 
         private void OnDestroy()
         {
+            currentDimensionDisplay.UpdateText("");
+            
             _controls.Disable();
             _controls.Dispose();
             _controls = null;
@@ -39,6 +43,8 @@ namespace Entities
             dimensions[_currentDimensionIndex].Exit();
             _currentDimensionIndex = index;
             dimensions[_currentDimensionIndex].Enter();
+            
+            currentDimensionDisplay.UpdateText($"Current Dimension: {dimensions[_currentDimensionIndex].name}");
         }
 
         private void OnGUI()

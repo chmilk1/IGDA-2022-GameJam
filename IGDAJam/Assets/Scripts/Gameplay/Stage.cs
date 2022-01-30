@@ -1,5 +1,7 @@
-﻿using System.Threading.Tasks;
+﻿using System.Threading;
+using System.Threading.Tasks;
 using UnityEngine;
+using Display = UI.Display;
 
 namespace Gameplay
 {
@@ -8,29 +10,38 @@ namespace Gameplay
     {
         [SerializeField] private Wave[] waves;
         [SerializeField] private bool autoRun = true;
+        [SerializeField] private Display stageDisplay;
 
+        private CancellationTokenSource _cts;
+        
         private async void Awake()
         {
+            _cts = new CancellationTokenSource();
+            
             if (autoRun == false)
                 return;
 
-            Debug.Log("Running stage.");
-            bool result = await Run();
-            Debug.Log($"Result: {result}");
+            stageDisplay.UpdateText($"{gameObject.name} running...");
+            bool result = await Run(_cts.Token);
+            stageDisplay.UpdateText(result ? $"{gameObject.name}: Success!" : $"{gameObject.name}: Failure...");
+        }
+
+        private void OnDestroy()
+        {
+            _cts.Cancel();
         }
 
         /// <summary>
         /// Executes each wave in order.
         /// </summary>
         /// <returns>Whether or not the player beat this stage.</returns>
-        public async Task<bool> Run()
+        public async Task<bool> Run(CancellationToken token)
         {
             foreach (var wave in waves)
             {
-                Debug.Log($"Entered {wave.name}.");
-                bool completedWave = await wave.Run();
+                bool completedWave = await wave.Run(token);
 
-                if (completedWave == false)
+                if (completedWave == false || _cts.IsCancellationRequested)
                     return false;
             }
 

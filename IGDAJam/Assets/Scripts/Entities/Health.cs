@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
+using Display = UI.Display;
 
 namespace Entities
 {
@@ -8,12 +9,18 @@ namespace Entities
         [Header("Settings")]
         [SerializeField] private int hitPoints = 1;
         [SerializeField] private bool destroyOnDeath = true;
-
+        [SerializeField] private Display healthDisplay;
+        
         [Space(20f)]
         [SerializeField] public UnityEvent<Health> onDeath;
         [SerializeField] public UnityEvent<Health> onDamage;
 
         public int RemainingHitPoints => hitPoints;
+
+        private void Start()
+        {
+            healthDisplay.UpdateText(hitPoints.ToString());
+        }
 
         public void Damage(int amount)
         {
@@ -27,6 +34,8 @@ namespace Entities
 
             hitPoints -= amount;
             onDamage.Invoke(this);
+            
+            healthDisplay.UpdateText(hitPoints.ToString());
         }
     }
 }

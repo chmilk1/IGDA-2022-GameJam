@@ -14,9 +14,8 @@ public class Repeater : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(timeInterval);
             onTimerEnd.Invoke();
+            yield return new WaitForSeconds(timeInterval);
         }
-
     }
 }
