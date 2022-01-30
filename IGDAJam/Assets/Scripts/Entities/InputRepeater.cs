@@ -11,26 +11,14 @@ namespace Entities
         
         private float _cooldownTime;
         private bool _holdingFire;
-        private Controls _controls;
         
-        private void Awake()
+        public void HandleFire(InputAction.CallbackContext context)
         {
-            _controls = new Controls();
-            _controls.Enable();
-            _controls.Player.Fire.started += HandleFire;
-            _controls.Player.Fire.canceled += HandleFire;
-        }
-        
-        private void OnDestroy()
-        {
-            _controls.Disable();
-            _controls.Dispose();
-            _controls = null;
-        }
-
-        private void HandleFire(InputAction.CallbackContext context)
-        {
-            _holdingFire = context.started;
+            if (context.started)
+                _holdingFire = true;
+            
+            else if (context.canceled)
+                _holdingFire = false;
         }
 
         private void Update()

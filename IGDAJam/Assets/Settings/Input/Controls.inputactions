@@ -9,7 +9,7 @@
                     "name": "Move",
                     "type": "Value",
                     "id": "3e248904-7cdc-4c0d-9aed-db8f30194154",
-                    "expectedControlType": "",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": ""
                 },
@@ -26,6 +26,22 @@
                     "type": "Button",
                     "id": "957c1260-8701-4a72-b09b-fd2bffe383ad",
                     "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "AimX",
+                    "type": "Value",
+                    "id": "25caa246-63b2-461e-b508-b172ab407db8",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "AimY",
+                    "type": "Value",
+                    "id": "2924edd3-35b8-4f49-8c1f-a9193ab39407",
+                    "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": ""
                 }
@@ -154,8 +170,8 @@
                 },
                 {
                     "name": "",
-                    "id": "7f041987-0a76-4016-94e8-d9ac6ab4239e",
-                    "path": "<Gamepad>/rightTrigger",
+                    "id": "c644829a-143f-4d0b-92cd-a8f399380bcd",
+                    "path": "<HID::Nintendo Wireless Gamepad>/button8",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -177,11 +193,33 @@
                 {
                     "name": "",
                     "id": "63e394a5-c336-4aa7-ac5e-06653efa20b5",
-                    "path": "<Joystick>/trigger",
+                    "path": "<HID::Nintendo Wireless Gamepad>/button7",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "CycleDimension",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "37165b2f-b1c4-49b6-851d-fdfc045bd497",
+                    "path": "<HID::Nintendo Wireless Gamepad>/rx",
+                    "interactions": "",
+                    "processors": "AxisDeadzone",
+                    "groups": "",
+                    "action": "AimX",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "640c39a5-257c-45d9-a010-b5e9d5e4add8",
+                    "path": "<HID::Nintendo Wireless Gamepad>/ry",
+                    "interactions": "",
+                    "processors": "AxisDeadzone",
+                    "groups": "",
+                    "action": "AimY",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -192,7 +230,28 @@
         {
             "name": "Default Controls",
             "bindingGroup": "Default Controls",
-            "devices": []
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": true,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Gamepad>",
+                    "isOptional": true,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Joystick>",
+                    "isOptional": true,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": true,
+                    "isOR": false
+                }
+            ]
         }
     ]
 }
