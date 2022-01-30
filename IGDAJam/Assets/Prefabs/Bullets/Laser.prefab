@@ -96,8 +96,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetRenderer: {fileID: 90989374135275925}
-  activeColor: {r: 1, g: 0, b: 0, a: 1}
-  inactiveColor: {r: 1, g: 0, b: 0, a: 0.5058824}
+  activeColor: {r: 1, g: 1, b: 1, a: 1}
+  inactiveColor: {r: 1, g: 1, b: 1, a: 0.5058824}
 --- !u!1 &90989374355792396
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,8 +194,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetRenderer: {fileID: 90989374355792386}
-  activeColor: {r: 1, g: 0, b: 0, a: 0.5686275}
-  inactiveColor: {r: 1, g: 0, b: 0, a: 0.23921569}
+  activeColor: {r: 1, g: 1, b: 1, a: 0.5686275}
+  inactiveColor: {r: 1, g: 1, b: 1, a: 0.23921569}
 --- !u!1 &90989374803749924
 GameObject:
   m_ObjectHideFlags: 0
