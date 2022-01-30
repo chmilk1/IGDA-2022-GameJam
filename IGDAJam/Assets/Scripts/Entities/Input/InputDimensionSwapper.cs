@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
+using FMODUnity;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
@@ -22,6 +22,7 @@ namespace Entities
         [SerializeField] private Display currentDimensionDisplay;
         [SerializeField] private Volume transitionVolume;
         [SerializeField] private PlayerInput input;
+        [SerializeField] private StudioEventEmitter swapSound;
         
         private int _currentDimensionIndex;
         
@@ -59,6 +60,7 @@ namespace Entities
         {
             input.DeactivateInput();
             float elapsedTime = 0;
+            swapSound.Play();
 
             while (elapsedTime <= 1.1f)
             {
