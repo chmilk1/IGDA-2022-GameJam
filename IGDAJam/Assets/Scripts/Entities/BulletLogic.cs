@@ -7,11 +7,11 @@ public class BulletLogic : MonoBehaviour
 
     [Header("Dependencies")]
     [SerializeField] Rigidbody2D rigidbody2d;
-    [SerializeField] Vector2 SpawnVelocity;
+    [SerializeField] private float speed;
 
     private void Awake()
     {
-        rigidbody2d.velocity = SpawnVelocity;
+        rigidbody2d.velocity = transform.right * speed;
     }
 
     public void onHit()

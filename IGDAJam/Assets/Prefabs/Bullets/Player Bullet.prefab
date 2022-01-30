@@ -178,4 +178,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody2d: {fileID: 8390754185931423886}
-  SpawnVelocity: {x: 10, y: 0}
+  speed: 5

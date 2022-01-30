@@ -24,12 +24,12 @@ namespace Gameplay
 
         private int _remainingEnemies;
         private bool _playerIsDead;
-        private Vector2 screenBounds;
+        private Vector2 _screenBounds;
         
         private void Awake()
         {
             if (Camera.main != null)
-                screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
+                _screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
             
             _remainingEnemies = prefabsToSpawn.Length;
             player.onDeath.AddListener(OnPlayerDeath);
@@ -45,7 +45,10 @@ namespace Gameplay
         {
             foreach (var health in prefabsToSpawn)
             {
-                var spawnPos = new Vector2(screenBounds.x + xScreenBoundOffset, Random.Range(-screenBounds.y, screenBounds.y));
+                float xSpawn = _screenBounds.y + xScreenBoundOffset;
+                float ySpawn = Random.Range(-_screenBounds.x, _screenBounds.x);
+                var spawnPos = new Vector2(ySpawn, xSpawn);
+                
                 Health newEnemy = Instantiate(health, spawnPos, quaternion.identity);
                 newEnemy.onDeath.AddListener(OnEnemyDeath);
                 
