@@ -5,7 +5,7 @@
 			<value>Money Pickup</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d445fd13-420b-4025-b782-5c4e789e10d6}</destination>
@@ -90,7 +90,11 @@
 			<destination>{8efb0341-d310-4b48-b817-8ccb806e61a2}</destination>
 		</relationship>
 	</object>
-	<object class="MultiSound" id="{2776583f-9016-40c9-b83f-02a01d985407}" />
+	<object class="MultiSound" id="{2776583f-9016-40c9-b83f-02a01d985407}">
+		<relationship name="sounds">
+			<destination>{42a32f4d-dcae-4bcc-8ad4-61c821e6ae5b}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{33b36a6e-657a-4d82-9d92-5ee719929c79}">
 		<relationship name="effects">
 			<destination>{d73120d2-5730-432f-8aa7-3f073a30a8bc}</destination>
@@ -117,6 +121,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7222e3c0-cb62-45ab-8828-43f21e538033}" />
+	<object class="SingleSound" id="{42a32f4d-dcae-4bcc-8ad4-61c821e6ae5b}">
+		<property name="pitch">
+			<value>-6</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{255561a6-cd5a-4545-acc8-0fb6be40a34f}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{d73120d2-5730-432f-8aa7-3f073a30a8bc}" />
 	<object class="MixerBusEffectChain" id="{48c2868d-cdac-4c96-b97c-35f0638c96e1}">
 		<relationship name="effects">
