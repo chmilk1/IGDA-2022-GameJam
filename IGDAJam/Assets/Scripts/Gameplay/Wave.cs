@@ -2,8 +2,8 @@
 using System.Threading;
 using System.Threading.Tasks;
 using Entities;
-using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.Events;
 using Display = UI.Display;
 using Random = UnityEngine.Random;
 
@@ -22,6 +22,9 @@ namespace Gameplay
         [SerializeField] private Health player;
         [SerializeField] private Display waveDisplay;
 
+        [SerializeField] private UnityEvent onStart;
+        [SerializeField] private UnityEvent onEnd;
+        
         private int _remainingEnemies;
         private bool _playerIsDead;
         private Vector2 _screenBounds;
@@ -59,6 +62,8 @@ namespace Gameplay
 
         private async Task<bool> WaitForEnd(CancellationToken token)
         {
+            onStart.Invoke();
+            
             while (_remainingEnemies > 0)
             {
                 waveDisplay.UpdateText($"{gameObject.name}: Remaining enemies: {_remainingEnemies}...");
@@ -66,6 +71,7 @@ namespace Gameplay
                 if (_playerIsDead)
                 {
                     waveDisplay.UpdateText("");
+                    onEnd.Invoke();
                     return false;
                 }
 
@@ -73,6 +79,7 @@ namespace Gameplay
             }
 
             waveDisplay.UpdateText("");
+            onEnd.Invoke();
             return true;
         }
 

@@ -15,6 +15,7 @@ namespace Entities
         {
             public Dimension dimension;
             public GameObject playerShip;
+            public GameObject background;
             public Volume volume;
         }
 
@@ -32,12 +33,16 @@ namespace Entities
             {
                 dimension.dimension.Exit();
                 dimension.playerShip.SetActive(false);
+                dimension.background.SetActive(false);
+                dimension.volume.weight = 0;
             }
             
             _currentDimensionIndex = 0;
             
             dimensions[_currentDimensionIndex].dimension.Enter();
             dimensions[_currentDimensionIndex].playerShip.SetActive(true);
+            dimensions[_currentDimensionIndex].background.SetActive(true);
+            dimensions[_currentDimensionIndex].volume.weight = 1;
             
             currentDimensionDisplay.UpdateText($"Current Dimension: {dimensions[_currentDimensionIndex].dimension.name}");
         }
@@ -76,11 +81,13 @@ namespace Entities
             elapsedTime = 0;
             dimensions[_currentDimensionIndex].dimension.Exit();
             dimensions[_currentDimensionIndex].playerShip.SetActive(false);
+            dimensions[_currentDimensionIndex].background.SetActive(false);
 
             _currentDimensionIndex = index;
 
             dimensions[_currentDimensionIndex].dimension.Enter();
             dimensions[_currentDimensionIndex].playerShip.SetActive(true);
+            dimensions[_currentDimensionIndex].background.SetActive(true);
             currentDimensionDisplay.UpdateText($"Current Dimension: {dimensions[_currentDimensionIndex].dimension.name}");
 
             while (elapsedTime <= 0.65f)
