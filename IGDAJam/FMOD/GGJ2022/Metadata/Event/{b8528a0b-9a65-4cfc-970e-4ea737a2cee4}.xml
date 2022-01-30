@@ -456,6 +456,9 @@
 		<property name="ratio">
 			<value>2.4000001</value>
 		</property>
+		<property name="attackTime">
+			<value>0.100000001</value>
+		</property>
 		<property name="gain">
 			<value>10.5</value>
 		</property>
