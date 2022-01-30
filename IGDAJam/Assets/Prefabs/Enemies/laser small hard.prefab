@@ -140,10 +140,10 @@ GameObject:
   - component: {fileID: 2014606940093628020}
   - component: {fileID: 2014606940093628018}
   - component: {fileID: 2014606940093628021}
-  - component: {fileID: 2014606940093628016}
   - component: {fileID: 8958083097296541279}
   - component: {fileID: 6273883012391133827}
   - component: {fileID: 2293409365564895718}
+  - component: {fileID: 8857387468697057708}
   m_Layer: 7
   m_Name: laser small hard
   m_TagString: Untagged
@@ -208,34 +208,6 @@ MonoBehaviour:
   onHit:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &2014606940093628016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2014606940093628023}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cea08d529d819cb4e9cf0345a01bce67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeInterval: 4
-  onTimerEnd:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2014606940434026883}
-        m_TargetAssemblyTypeName: BulletEmmiter, Assembly-CSharp
-        m_MethodName: fire
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &8958083097296541279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -315,6 +287,37 @@ MonoBehaviour:
   targetRenderer: {fileID: 6815152989022191085}
   activeColor: {r: 1, g: 1, b: 1, a: 1}
   inactiveColor: {r: 1, g: 1, b: 1, a: 0.2901961}
+--- !u!114 &8857387468697057708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014606940093628023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b05b8d0161a727749b9e12540a0f2a14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveTime: 2
+  shootWaitTime: 1.75
+  speed: 3.25
+  rigidbody2d: {fileID: 2014606940093628018}
+  onTimerEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 9175369233042692221}
+        m_TargetAssemblyTypeName: ParentingEmmiter, Assembly-CSharp
+        m_MethodName: fire
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &7418283144061916994
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -381,14 +384,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9008988579381069506, guid: bff07b63dbd135440870b3d6b72e9511, type: 3}
   m_PrefabInstance: {fileID: 7418283144061916994}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2014606940434026883 stripped
+--- !u!114 &9175369233042692221 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9008988579381069505, guid: bff07b63dbd135440870b3d6b72e9511, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1848301601171361599, guid: bff07b63dbd135440870b3d6b72e9511, type: 3}
   m_PrefabInstance: {fileID: 7418283144061916994}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d452e237d560f1f43b758464fc6b33c2, type: 3}
+  m_Script: {fileID: 11500000, guid: 2a050b49eb559764580406c2ec2c0351, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

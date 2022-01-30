@@ -11,8 +11,8 @@ namespace Entities
         
         private Rigidbody2D _rigidbody2D;
         private Vector2 _inputDirection;
-        
-        public float Multiplier { get; set; }
+
+        public float Multiplier { get; set; } = 1f;
         
         private void Awake()
         {
@@ -21,7 +21,6 @@ namespace Entities
 
         public void ApplyMovement(InputAction.CallbackContext context)
         {
-            Debug.Log("Handle movement");
             _inputDirection = context.ReadValue<Vector2>();
             _rigidbody2D.velocity = _inputDirection * (movementSpeed * Multiplier);
         }

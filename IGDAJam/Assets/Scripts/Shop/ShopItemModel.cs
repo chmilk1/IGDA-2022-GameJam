@@ -1,5 +1,4 @@
-﻿using Entities;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Gameplay
 {
@@ -13,37 +12,7 @@ namespace Gameplay
         public abstract void ApplyTo(GameObject player);
     }
 
-    public class MovementSpeedUpgrade : ShopItemModel
-    {
-        [SerializeField] private float percentIncrease;
-        
-        public override void ApplyTo(GameObject player)
-        {
-            if (player.TryGetComponent(out InputMovement movement))
-                movement.Multiplier += percentIncrease;
-        }
-    }
 
-    public class FullHeal : ShopItemModel
-    {
-        public override void ApplyTo(GameObject player)
-        {
-            if (player.TryGetComponent(out Health health))
-                health.Heal(health.MaxHealth);
-        }
-    }
-    
-    public class MaxHealthUpgrade : ShopItemModel
-    {
-        [SerializeField] private int extraHealth;
-        
-        public override void ApplyTo(GameObject player)
-        {
-            if (player.TryGetComponent(out Health health))
-                health.MaxHealth += extraHealth;
-        }
-    }
-    
     // public class SpreadUpgrade : ShopItem
     // {
     //     public override void ApplyTo(GameObject player)

@@ -8,6 +8,8 @@ public class BulletLogic : MonoBehaviour
     [Header("Dependencies")]
     [SerializeField] Rigidbody2D rigidbody2d;
     [SerializeField] private float speed;
+    [SerializeField] private float lifetime;
+
 
     private void Awake()
     {
@@ -16,6 +18,12 @@ public class BulletLogic : MonoBehaviour
 
     public void onHit()
     {
+        Destroy(this.gameObject);
+    }
+
+    private IEnumerator Start()
+    {
+        yield return new WaitForSeconds(lifetime);
         Destroy(this.gameObject);
     }
 }

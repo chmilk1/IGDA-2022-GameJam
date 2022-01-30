@@ -26,7 +26,6 @@ namespace Entities
 
         public void CycleDimensions(InputAction.CallbackContext context)
         {
-            Debug.Log("Handle dimension");
             if (context.started)
             {
                 int targetIndex = (_currentDimensionIndex + 1) % dimensions.Length;

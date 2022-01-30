@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Entities;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
@@ -28,6 +29,7 @@ namespace Gameplay
         {
             SetupItemSlots();
             
+            EventSystem.current.SetSelectedGameObject(itemSlots[0].gameObject);
             _input.DeactivateInput();
             shopObject.alpha = 1;
             shopObject.interactable = true;
@@ -62,7 +64,13 @@ namespace Gameplay
             view.nameDisplay.UpdateText(model.itemName);
             view.descriptionDisplay.UpdateText(model.itemDescription);
             view.costDisplay.UpdateText($"Cost: {model.cost}");
-            view.purchaseButton.onClick.AddListener(() => model.ApplyTo(_input.gameObject));
+            view.purchaseButton.onClick.AddListener(() => HandlePurchase(view, model));
+        }
+
+        private void HandlePurchase(ShopItemView view, ShopItemModel model)
+        {
+            view.purchaseButton.interactable = false;
+            model.ApplyTo(_input.gameObject);
         }
     }
 }
