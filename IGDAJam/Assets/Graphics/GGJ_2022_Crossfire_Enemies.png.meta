@@ -172,7 +172,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -232,10 +232,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 13
-        width: 20
-        height: 18
+        x: 17
+        y: 20
+        width: 30
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,10 +253,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_1
       rect:
         serializedVersion: 2
-        x: 49
-        y: 12
-        width: 20
-        height: 19
+        x: 81
+        y: 18
+        width: 31
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,10 +274,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_2
       rect:
         serializedVersion: 2
-        x: 91
-        y: 11
-        width: 20
-        height: 22
+        x: 144
+        y: 17
+        width: 31
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,10 +295,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_3
       rect:
         serializedVersion: 2
-        x: 133
-        y: 13
-        width: 20
-        height: 18
+        x: 209
+        y: 20
+        width: 30
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,10 +316,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_4
       rect:
         serializedVersion: 2
-        x: 175
-        y: 12
-        width: 20
-        height: 20
+        x: 273
+        y: 18
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -337,10 +337,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_5
       rect:
         serializedVersion: 2
-        x: 217
-        y: 11
-        width: 20
-        height: 22
+        x: 337
+        y: 17
+        width: 30
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,10 +358,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_6
       rect:
         serializedVersion: 2
-        x: 260
-        y: 1
-        width: 18
-        height: 40
+        x: 402
+        y: 3
+        width: 28
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -379,10 +379,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_7
       rect:
         serializedVersion: 2
-        x: 302
-        y: 1
-        width: 18
-        height: 40
+        x: 466
+        y: 3
+        width: 27
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,10 +400,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_8
       rect:
         serializedVersion: 2
-        x: 344
-        y: 1
-        width: 18
-        height: 39
+        x: 530
+        y: 3
+        width: 28
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -421,10 +421,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_9
       rect:
         serializedVersion: 2
-        x: 386
-        y: 1
-        width: 18
-        height: 40
+        x: 595
+        y: 3
+        width: 27
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -442,10 +442,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_10
       rect:
         serializedVersion: 2
-        x: 428
-        y: 1
-        width: 18
-        height: 40
+        x: 658
+        y: 3
+        width: 28
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -463,10 +463,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_11
       rect:
         serializedVersion: 2
-        x: 470
-        y: 1
-        width: 18
-        height: 39
+        x: 722
+        y: 3
+        width: 27
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -484,10 +484,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_12
       rect:
         serializedVersion: 2
-        x: 505
-        y: 3
-        width: 32
-        height: 36
+        x: 776
+        y: 5
+        width: 48
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -505,10 +505,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_13
       rect:
         serializedVersion: 2
-        x: 547
-        y: 3
-        width: 32
-        height: 35
+        x: 840
+        y: 4
+        width: 49
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -526,10 +526,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_14
       rect:
         serializedVersion: 2
-        x: 589
-        y: 3
-        width: 32
-        height: 34
+        x: 904
+        y: 5
+        width: 48
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,10 +547,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_15
       rect:
         serializedVersion: 2
-        x: 631
-        y: 3
-        width: 32
-        height: 36
+        x: 969
+        y: 5
+        width: 47
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -568,10 +568,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_16
       rect:
         serializedVersion: 2
-        x: 673
-        y: 3
-        width: 32
-        height: 35
+        x: 1032
+        y: 4
+        width: 48
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -589,10 +589,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_17
       rect:
         serializedVersion: 2
-        x: 715
-        y: 3
-        width: 32
-        height: 34
+        x: 1096
+        y: 5
+        width: 48
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -610,10 +610,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_18
       rect:
         serializedVersion: 2
-        x: 766
-        y: 13
-        width: 14
-        height: 26
+        x: 1173
+        y: 20
+        width: 21
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -631,10 +631,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_19
       rect:
         serializedVersion: 2
-        x: 807
-        y: 14
-        width: 16
-        height: 25
+        x: 1235
+        y: 21
+        width: 26
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -652,10 +652,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_20
       rect:
         serializedVersion: 2
-        x: 848
-        y: 14
-        width: 18
-        height: 25
+        x: 1298
+        y: 21
+        width: 28
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -673,10 +673,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_21
       rect:
         serializedVersion: 2
-        x: 891
-        y: 14
-        width: 16
-        height: 25
+        x: 1362
+        y: 21
+        width: 27
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -694,10 +694,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_22
       rect:
         serializedVersion: 2
-        x: 934
-        y: 13
-        width: 14
-        height: 26
+        x: 1429
+        y: 20
+        width: 23
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -715,10 +715,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_23
       rect:
         serializedVersion: 2
-        x: 975
-        y: 14
-        width: 16
-        height: 25
+        x: 1491
+        y: 21
+        width: 26
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -736,10 +736,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_24
       rect:
         serializedVersion: 2
-        x: 1016
-        y: 14
-        width: 18
-        height: 25
+        x: 1554
+        y: 21
+        width: 28
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -757,10 +757,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_25
       rect:
         serializedVersion: 2
-        x: 1059
-        y: 14
-        width: 16
-        height: 25
+        x: 1620
+        y: 21
+        width: 25
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -778,10 +778,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_26
       rect:
         serializedVersion: 2
-        x: 1098
-        y: 5
-        width: 22
-        height: 29
+        x: 1679
+        y: 8
+        width: 34
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -799,10 +799,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_27
       rect:
         serializedVersion: 2
-        x: 1140
-        y: 6
-        width: 22
-        height: 29
+        x: 1743
+        y: 9
+        width: 34
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -820,10 +820,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_28
       rect:
         serializedVersion: 2
-        x: 1182
-        y: 5
-        width: 22
-        height: 29
+        x: 1807
+        y: 8
+        width: 34
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -841,10 +841,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_29
       rect:
         serializedVersion: 2
-        x: 1224
-        y: 6
-        width: 22
-        height: 29
+        x: 1872
+        y: 9
+        width: 32
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -862,10 +862,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_30
       rect:
         serializedVersion: 2
-        x: 1266
-        y: 5
-        width: 22
-        height: 29
+        x: 1935
+        y: 8
+        width: 34
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -883,10 +883,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_31
       rect:
         serializedVersion: 2
-        x: 1308
-        y: 6
-        width: 22
-        height: 29
+        x: 1999
+        y: 9
+        width: 34
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -904,10 +904,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_32
       rect:
         serializedVersion: 2
-        x: 1350
-        y: 5
-        width: 22
-        height: 29
+        x: 2063
+        y: 8
+        width: 34
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -925,10 +925,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_33
       rect:
         serializedVersion: 2
-        x: 1392
-        y: 5
-        width: 22
-        height: 29
+        x: 2128
+        y: 9
+        width: 32
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -946,10 +946,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_34
       rect:
         serializedVersion: 2
-        x: 1429
+        x: 2184
         y: 1
-        width: 32
-        height: 37
+        width: 49
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -967,10 +967,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_35
       rect:
         serializedVersion: 2
-        x: 1471
-        y: 1
-        width: 32
-        height: 40
+        x: 2248
+        y: 3
+        width: 49
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -988,10 +988,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_36
       rect:
         serializedVersion: 2
-        x: 1513
+        x: 2313
         y: 1
-        width: 32
-        height: 37
+        width: 47
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,10 +1009,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_37
       rect:
         serializedVersion: 2
-        x: 1555
-        y: 1
-        width: 32
-        height: 40
+        x: 2376
+        y: 3
+        width: 48
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1030,10 +1030,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_38
       rect:
         serializedVersion: 2
-        x: 1597
+        x: 2440
         y: 1
-        width: 32
-        height: 37
+        width: 48
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1051,10 +1051,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_39
       rect:
         serializedVersion: 2
-        x: 1639
-        y: 1
-        width: 32
-        height: 40
+        x: 2504
+        y: 3
+        width: 49
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1072,10 +1072,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_40
       rect:
         serializedVersion: 2
-        x: 1681
+        x: 2569
         y: 1
-        width: 32
-        height: 37
+        width: 47
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1093,10 +1093,10 @@ TextureImporter:
       name: GGJ_2022_Crossfire_Enemies_41
       rect:
         serializedVersion: 2
-        x: 1723
-        y: 1
-        width: 32
-        height: 40
+        x: 2632
+        y: 3
+        width: 48
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
