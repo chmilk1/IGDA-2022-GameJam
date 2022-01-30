@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.InputSystem;
 using Display = UI.Display;
 
 namespace Entities
@@ -9,7 +10,6 @@ namespace Entities
         [SerializeField] private Display currentDimensionDisplay;
         
         private int _currentDimensionIndex;
-        private Controls _controls;
         
         private void Start()
         {
@@ -17,25 +17,21 @@ namespace Entities
                 dimension.Exit();
 
             UpdateDimensionIndex(0);
-            
-            _controls = new Controls();
-            _controls.Enable();
-            _controls.Player.CycleDimension.started += _ => CycleDimensions();
         }
 
         private void OnDestroy()
         {
             currentDimensionDisplay.UpdateText("");
-            
-            _controls.Disable();
-            _controls.Dispose();
-            _controls = null;
         }
 
-        private void CycleDimensions()
+        public void CycleDimensions(InputAction.CallbackContext context)
         {
-            int targetIndex = (_currentDimensionIndex + 1) % dimensions.Length;
-            UpdateDimensionIndex(targetIndex);
+            Debug.Log("Handle dimension");
+            if (context.started)
+            {
+                int targetIndex = (_currentDimensionIndex + 1) % dimensions.Length;
+                UpdateDimensionIndex(targetIndex);    
+            }
         }
 
         private void UpdateDimensionIndex(int index)
