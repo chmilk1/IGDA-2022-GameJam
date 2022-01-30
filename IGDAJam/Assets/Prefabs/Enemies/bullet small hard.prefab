@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xSpeed: 3
-  ySpeed: 0.5
+  ySpeed: 0.1
   yScreenPrecent: 0.75
   rigidbody2d: {fileID: 2014606940093628018}
 --- !u!114 &1596235943487585616

@@ -563,7 +563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3795694898f6427581bcbc6fa4c78424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aimTransform: {fileID: 1204309747}
+  aimTransform: {fileID: 0}
 --- !u!1001 &463548833
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1100,11 +1100,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 344fe197b02b46519caf383fc37242be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1204309747 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5567063503955828942, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
-  m_PrefabInstance: {fileID: 5253297237829070058}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1238781567 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8611203795795258727, guid: e2461363b9bc7c14c91c73451f8f42e0, type: 3}
