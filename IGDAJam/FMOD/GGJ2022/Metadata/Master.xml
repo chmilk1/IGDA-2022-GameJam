@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerMaster" id="{a8cbc100-2d48-40a1-a25d-afeab5f14776}">
+		<property name="volume">
+			<value>-10.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{e2f59255-7784-4fd9-8a43-e9d4f99cb367}</destination>
 		</relationship>
