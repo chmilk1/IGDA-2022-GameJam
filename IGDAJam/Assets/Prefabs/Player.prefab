@@ -343,10 +343,15 @@ MonoBehaviour:
   hitPoints: 3
   destroyOnDeath: 1
   healthDisplay: {fileID: 3828883356327127466}
+  isPlayer: 1
+  invulnTime: 0.66
   onDeath:
     m_PersistentCalls:
       m_Calls: []
   onDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  onHeal:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &975283262
@@ -448,6 +453,46 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 2924edd3-35b8-4f49-8c1f-a9193ab39407
     m_ActionName: Player/AimY
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 07b637fa-e210-4fb8-b371-f8ccc9c82178
+    m_ActionName: UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 481e1d27-3136-4354-a836-e24bb7d4e95f
+    m_ActionName: UI/Submit[/Keyboard/enter]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 421bc1e8-e223-4035-ad98-098807c576f5
+    m_ActionName: UI/Cancel[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 25f67496-ef4a-4725-aafd-3b7c8909217f
+    m_ActionName: UI/Point[/Mouse/position]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 03b4be04-6bb6-49e5-ae0c-815553d122cc
+    m_ActionName: UI/Click[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8cd67412-8033-430e-88c4-0418bb13b066
+    m_ActionName: UI/ScrollWheel[/Mouse/scroll]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 771f8cdf-2341-47e2-a0ff-35bc187b3f12
+    m_ActionName: UI/MiddleClick[/Mouse/middleButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 06a3fa7a-a949-4c3f-9162-f4850a8f1a8b
+    m_ActionName: UI/RightClick[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 12f23d23-17ba-4f0e-8507-90ad2db22dde
+    m_ActionName: UI/TrackedDevicePosition
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4c4d7bee-0743-457c-9da4-fe360604932d
+    m_ActionName: UI/TrackedDeviceOrientation
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player

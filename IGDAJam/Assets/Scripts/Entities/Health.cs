@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.Events;
 using Display = UI.Display;
 
@@ -10,7 +11,9 @@ namespace Entities
         [SerializeField] private int hitPoints = 1;
         [SerializeField] private bool destroyOnDeath = true;
         [SerializeField] private Display healthDisplay;
-        
+        [SerializeField] public bool isPlayer;
+        [SerializeField] public float invulnTime;
+
         [Space(20f)]
         [SerializeField] public UnityEvent<Health> onDeath;
         [SerializeField] public UnityEvent<Health> onDamage;
@@ -18,6 +21,8 @@ namespace Entities
 
         public int RemainingHitPoints { get; private set; }
         public int MaxHealth { get; set; }
+
+        private bool invuln = false;
         
         private void Start()
         {
@@ -39,19 +44,34 @@ namespace Entities
         
         public void Damage(int amount)
         {
-            if (RemainingHitPoints - amount <= 0)
+            if (!invuln)
             {
-                onDeath.Invoke(this);
-                
-                if (destroyOnDeath)
-                    Destroy(gameObject);
-            }
+                if (RemainingHitPoints - amount <= 0)
+                {
+                    onDeath.Invoke(this);
 
-            RemainingHitPoints -= amount;
-            onDamage.Invoke(this);
-            
-            if (healthDisplay != null)
-                healthDisplay.UpdateText(RemainingHitPoints.ToString());
+                    if (destroyOnDeath)
+                        Destroy(gameObject);
+                }
+
+                RemainingHitPoints -= amount;
+                onDamage.Invoke(this);
+
+                if (healthDisplay != null)
+                    healthDisplay.UpdateText(RemainingHitPoints.ToString());
+
+                if (isPlayer)
+                {
+                    invuln = true;
+                    StartCoroutine(InvulnTimer());
+                }
+            }
+        }
+
+        private IEnumerator InvulnTimer()
+        {
+            yield return new WaitForSeconds(invulnTime);
+            invuln = false;
         }
     }
 }
