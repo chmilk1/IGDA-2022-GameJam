@@ -440,6 +440,14 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 957c1260-8701-4a72-b09b-fd2bffe383ad
     m_ActionName: Player/CycleDimension[/Keyboard/space,/Nintendo Wireless Gamepad/trigger]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 25caa246-63b2-461e-b508-b172ab407db8
+    m_ActionName: Player/AimX
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2924edd3-35b8-4f49-8c1f-a9193ab39407
+    m_ActionName: Player/AimY
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
