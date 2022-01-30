@@ -318,8 +318,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 372dbaacf73e9cf45ade6770e7a7c426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xSpeed: 0.5
-  ySpeed: 0.25
+  xSpeed: 0.75
+  ySpeed: 0.075
   yScreenPrecent: 0.6
   rigidbody2d: {fileID: 2014606940093628018}
 --- !u!1001 &1811945787495122666
