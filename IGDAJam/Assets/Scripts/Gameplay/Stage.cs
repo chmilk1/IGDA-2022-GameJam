@@ -14,7 +14,7 @@ namespace Gameplay
 
         private CancellationTokenSource _cts;
         
-        private async void Awake()
+        private async void Start()
         {
             _cts = new CancellationTokenSource();
             
