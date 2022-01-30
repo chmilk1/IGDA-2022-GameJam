@@ -563,7 +563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3795694898f6427581bcbc6fa4c78424, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aimTransform: {fileID: 0}
+  aimTransform: {fileID: 1914008099}
 --- !u!1001 &463548833
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1334,6 +1334,11 @@ MonoBehaviour:
   - {fileID: 2939997648416715985, guid: 2a3a3f4119fd4f04f8d464d8bde5e086, type: 3}
   player: {fileID: 975283265}
   waveDisplay: {fileID: 1439216779}
+--- !u!4 &1914008099 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5567063503955828942, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
+  m_PrefabInstance: {fileID: 5253297237829070058}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2010709582
 GameObject:
   m_ObjectHideFlags: 0
