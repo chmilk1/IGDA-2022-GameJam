@@ -77,7 +77,7 @@ MonoBehaviour:
   targetLayers:
     serializedVersion: 2
     m_Bits: 64
-  damage: 1
+  damage: 5
   onHit:
     m_PersistentCalls:
       m_Calls: []
@@ -98,6 +98,30 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2014606940434026883}
+        m_TargetAssemblyTypeName: BulletEmmiter, Assembly-CSharp
+        m_MethodName: fire
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3280727652276159672}
+        m_TargetAssemblyTypeName: BulletEmmiter, Assembly-CSharp
+        m_MethodName: fire
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7342080359284275207}
         m_TargetAssemblyTypeName: BulletEmmiter, Assembly-CSharp
         m_MethodName: fire
         m_Mode: 1
@@ -387,6 +411,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9008988579381069506, guid: bff07b63dbd135440870b3d6b72e9511, type: 3}
   m_PrefabInstance: {fileID: 1793017928297070278}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7342080359284275207 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9008988579381069505, guid: bff07b63dbd135440870b3d6b72e9511, type: 3}
+  m_PrefabInstance: {fileID: 1793017928297070278}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d452e237d560f1f43b758464fc6b33c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5800960725194605177
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -457,6 +492,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9008988579381069506, guid: bff07b63dbd135440870b3d6b72e9511, type: 3}
   m_PrefabInstance: {fileID: 5800960725194605177}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3280727652276159672 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9008988579381069505, guid: bff07b63dbd135440870b3d6b72e9511, type: 3}
+  m_PrefabInstance: {fileID: 5800960725194605177}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d452e237d560f1f43b758464fc6b33c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7418283144061916994
 PrefabInstance:
   m_ObjectHideFlags: 0
