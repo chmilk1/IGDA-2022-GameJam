@@ -628,6 +628,7 @@ GameObject:
   m_Component:
   - component: {fileID: 280900970}
   - component: {fileID: 280900971}
+  - component: {fileID: 280900972}
   m_Layer: 0
   m_Name: Station 2
   m_TagString: Untagged
@@ -667,6 +668,19 @@ MonoBehaviour:
   - {fileID: 2939997648416715985, guid: 2a3a3f4119fd4f04f8d464d8bde5e086, type: 3}
   player: {fileID: 975283265}
   waveDisplay: {fileID: 1439216779}
+--- !u!114 &280900972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280900969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b961f9048164406b03dda7dc176eac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hazards: {fileID: 2010709582}
 --- !u!1 &334726586
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,6 +691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 334726587}
   - component: {fileID: 334726588}
+  - component: {fileID: 334726589}
   m_Layer: 0
   m_Name: Wave 4
   m_TagString: Untagged
@@ -723,6 +738,19 @@ MonoBehaviour:
   - {fileID: 8958083097296541279, guid: e15b8639f636f5f4cbcfc7910cc8970e, type: 3}
   player: {fileID: 975283265}
   waveDisplay: {fileID: 1439216779}
+--- !u!114 &334726589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334726586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66687db43dcb42619620b3491a64a28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hazards: {fileID: 2010709582}
 --- !u!1001 &450299422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1402,6 +1430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 970206413}
   - component: {fileID: 970206414}
+  - component: {fileID: 970206415}
   m_Layer: 0
   m_Name: Wave 1
   m_TagString: Untagged
@@ -1446,6 +1475,19 @@ MonoBehaviour:
   - {fileID: 8958083097296541279, guid: b884703274800d04cb2083b206f9e16b, type: 3}
   player: {fileID: 975283265}
   waveDisplay: {fileID: 1439216779}
+--- !u!114 &970206415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970206412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66687db43dcb42619620b3491a64a28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hazards: {fileID: 2010709582}
 --- !u!1001 &972065021
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2018,6 +2060,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1701909402}
   - component: {fileID: 1701909403}
+  - component: {fileID: 1701909404}
   m_Layer: 0
   m_Name: Station 1
   m_TagString: Untagged
@@ -2057,6 +2100,19 @@ MonoBehaviour:
   - {fileID: 2939997648416715985, guid: 2a3a3f4119fd4f04f8d464d8bde5e086, type: 3}
   player: {fileID: 975283265}
   waveDisplay: {fileID: 1439216779}
+--- !u!114 &1701909404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701909401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48b961f9048164406b03dda7dc176eac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hazards: {fileID: 2010709582}
 --- !u!4 &1914008099 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5567063503955828942, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
@@ -2073,6 +2129,8 @@ GameObject:
   - component: {fileID: 2010709585}
   - component: {fileID: 2010709584}
   - component: {fileID: 2010709583}
+  - component: {fileID: 2010709587}
+  - component: {fileID: 2010709586}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2151,6 +2209,58 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2010709586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010709582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f539bbcfd6f1f40c4b2289f3514c9302, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab0: {fileID: 7977460810576361332, guid: 15835ca593763469da865cf3074c8f73, type: 3}
+  enemyPrefab1: {fileID: 7977460810576361332, guid: 3a137f59e05f84bc5991138889d92791, type: 3}
+  enemyPrefab2: {fileID: 7977460810576361332, guid: 382236af5ee0d4ef19f1b7082d927e44, type: 3}
+  enemyPrefab3: {fileID: 7977460810576361332, guid: 0e87fdd7302ad445f8d1d2c27a656447, type: 3}
+  respawnTime: 1
+  yScreenBoundOffset: 2
+  spawnEnemies: 0
+--- !u!114 &2010709587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010709582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &2026177059
 GameObject:
   m_ObjectHideFlags: 0
@@ -2361,6 +2471,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5253297237193525463, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5253297237193525463, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7662868322543506027, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
