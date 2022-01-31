@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{aee08b74-a4e4-41d9-bca8-8c59365e6c8c}">
+		<property name="name">
+			<value>Boss Completion</value>
+		</property>
+		<relationship name="folder">
+			<destination>{12265f38-ba83-4d4f-b146-0a80d9c2744a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{20080398-ad30-456c-96e0-e9bf982fc2e3}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{20080398-ad30-456c-96e0-e9bf982fc2e3}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
