@@ -16,12 +16,14 @@ namespace Entities
             public GameObject playerShip;
             public GameObject background;
             public Volume volume;
+            public float musicTarget;
         }
 
         [SerializeField] private DimensionData[] dimensions;
         [SerializeField] private Volume transitionVolume;
         [SerializeField] private PlayerInput input;
         [SerializeField] private StudioEventEmitter swapSound;
+        [SerializeField] private StudioEventEmitter music;
         
         private int _currentDimensionIndex;
         
@@ -57,6 +59,8 @@ namespace Entities
         {
             input.DeactivateInput();
             float elapsedTime = 0;
+            float target = dimensions[_currentDimensionIndex].musicTarget;
+            music.SetParameter("Alt & M", target);
             swapSound.Play();
 
             while (elapsedTime <= 1.1f)

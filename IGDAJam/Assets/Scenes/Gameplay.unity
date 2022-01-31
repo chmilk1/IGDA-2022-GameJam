@@ -1776,6 +1776,14 @@ PrefabInstance:
       propertyPath: dimensions.Array.data[1].playerShip
       value: 
       objectReference: {fileID: 5253297237829070059}
+    - target: {fileID: 975283262, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
+      propertyPath: dimensions.Array.data[0].musicTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 975283262, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
+      propertyPath: dimensions.Array.data[1].musicTarget
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 300207911232804968, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
       propertyPath: m_Layer
       value: 6
