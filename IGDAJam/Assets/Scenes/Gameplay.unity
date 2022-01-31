@@ -1198,6 +1198,7 @@ MonoBehaviour:
   - {fileID: 2026177061}
   - {fileID: 280900971}
   autoRun: 1
+  mainMenu: MainMenu
 --- !u!4 &1547985464 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9170708359106174540, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}

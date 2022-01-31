@@ -1,6 +1,7 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Display = UI.Display;
 
 namespace Gameplay
@@ -10,7 +11,8 @@ namespace Gameplay
     {
         [SerializeField] private Wave[] waves;
         [SerializeField] private bool autoRun = true;
-
+        [SerializeField] private string mainMenu;
+        
         private CancellationTokenSource _cts;
         
         private async void Start()
@@ -21,6 +23,8 @@ namespace Gameplay
                 return;
 
             bool result = await Run(_cts.Token);
+
+            SceneManager.LoadScene(mainMenu);
         }
 
         private void OnDestroy()
