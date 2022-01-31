@@ -424,7 +424,19 @@ MonoBehaviour:
   waveDisplay: {fileID: 1439216779}
   onStart:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 952658464}
+        m_TargetAssemblyTypeName: DeployEnemy, Assembly-CSharp
+        m_MethodName: stopHazards
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onEnd:
     m_PersistentCalls:
       m_Calls: []
@@ -486,7 +498,19 @@ MonoBehaviour:
   waveDisplay: {fileID: 1439216779}
   onStart:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 952658464}
+        m_TargetAssemblyTypeName: DeployEnemy, Assembly-CSharp
+        m_MethodName: startHazards
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onEnd:
     m_PersistentCalls:
       m_Calls: []
@@ -1083,6 +1107,56 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &952658463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 952658465}
+  - component: {fileID: 952658464}
+  m_Layer: 0
+  m_Name: Spawn Hazards
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &952658464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952658463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f539bbcfd6f1f40c4b2289f3514c9302, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefab0: {fileID: 7977460810576361332, guid: 15835ca593763469da865cf3074c8f73, type: 3}
+  enemyPrefab1: {fileID: 7977460810576361332, guid: 0e87fdd7302ad445f8d1d2c27a656447, type: 3}
+  enemyPrefab2: {fileID: 7977460810576361332, guid: 382236af5ee0d4ef19f1b7082d927e44, type: 3}
+  enemyPrefab3: {fileID: 7977460810576361332, guid: 3a137f59e05f84bc5991138889d92791, type: 3}
+  respawnTime: 5
+  yScreenBoundOffset: 0
+  spawnEnemies: 0
+--- !u!4 &952658465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952658463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &970206412
 GameObject:
   m_ObjectHideFlags: 0
@@ -1139,7 +1213,19 @@ MonoBehaviour:
   waveDisplay: {fileID: 1439216779}
   onStart:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 952658464}
+        m_TargetAssemblyTypeName: DeployEnemy, Assembly-CSharp
+        m_MethodName: startHazards
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onEnd:
     m_PersistentCalls:
       m_Calls: []
@@ -1696,7 +1782,19 @@ MonoBehaviour:
   waveDisplay: {fileID: 1439216779}
   onStart:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 952658464}
+        m_TargetAssemblyTypeName: DeployEnemy, Assembly-CSharp
+        m_MethodName: stopHazards
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onEnd:
     m_PersistentCalls:
       m_Calls: []
