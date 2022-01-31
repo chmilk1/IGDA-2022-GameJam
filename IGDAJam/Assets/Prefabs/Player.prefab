@@ -540,6 +540,8 @@ MonoBehaviour:
   hitPoints: 3
   destroyOnDeath: 1
   healthDisplay: {fileID: 0}
+  explodes: 1
+  explosion: {fileID: 7681872477206559406, guid: dd0b03ac4d6cf48419cd36a74b3af0d5, type: 3}
   isPlayer: 1
   invulnTime: 0.44
   onDeath:
