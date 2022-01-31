@@ -20,7 +20,6 @@ namespace Gameplay
         [SerializeField] private float spawnDelay = 1f;
         [SerializeField] private Health[] prefabsToSpawn;
         [SerializeField] private Health player;
-        [SerializeField] private Display waveDisplay;
 
         [SerializeField] private UnityEvent onStart;
         [SerializeField] private UnityEvent onEnd;
@@ -66,11 +65,9 @@ namespace Gameplay
             
             while (_remainingEnemies > 0)
             {
-                waveDisplay.UpdateText($"{gameObject.name}: Remaining enemies: {_remainingEnemies}...");
 
                 if (_playerIsDead)
                 {
-                    waveDisplay.UpdateText("");
                     onEnd.Invoke();
                     return false;
                 }
@@ -78,7 +75,6 @@ namespace Gameplay
                 await Task.Delay(500, token);
             }
 
-            waveDisplay.UpdateText("");
             onEnd.Invoke();
             return true;
         }

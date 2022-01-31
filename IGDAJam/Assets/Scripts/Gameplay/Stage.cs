@@ -10,7 +10,6 @@ namespace Gameplay
     {
         [SerializeField] private Wave[] waves;
         [SerializeField] private bool autoRun = true;
-        [SerializeField] private Display stageDisplay;
 
         private CancellationTokenSource _cts;
         
@@ -21,9 +20,7 @@ namespace Gameplay
             if (autoRun == false)
                 return;
 
-            stageDisplay.UpdateText($"{gameObject.name} running...");
             bool result = await Run(_cts.Token);
-            stageDisplay.UpdateText(result ? $"{gameObject.name}: Success!" : $"{gameObject.name}: Failure...");
         }
 
         private void OnDestroy()

@@ -10,7 +10,6 @@ namespace Entities
         [Header("Settings")]
         [SerializeField] private int hitPoints = 1;
         [SerializeField] private bool destroyOnDeath = true;
-        [SerializeField] private Display healthDisplay;
         [SerializeField] public bool explodes;
         [SerializeField] public GameObject explosion;
         [SerializeField] public bool isPlayer;
@@ -26,22 +25,16 @@ namespace Entities
 
         private bool invuln = false;
         
-        private void Start()
+        private void Awake()
         {
             MaxHealth = hitPoints;
             RemainingHitPoints = MaxHealth;
-            
-            if (healthDisplay != null)
-                healthDisplay.UpdateText(RemainingHitPoints.ToString());
         }
 
         public void Heal(int amount)
         {
             RemainingHitPoints = Mathf.Min(RemainingHitPoints + amount, MaxHealth);
             onHeal.Invoke(this);
-            
-            if (healthDisplay != null)
-                healthDisplay.UpdateText(RemainingHitPoints.ToString());
         }
         
         public void Damage(int amount)
@@ -61,9 +54,6 @@ namespace Entities
 
                 RemainingHitPoints -= amount;
                 onDamage.Invoke(this);
-
-                if (healthDisplay != null)
-                    healthDisplay.UpdateText(RemainingHitPoints.ToString());
 
                 if (isPlayer)
                 {

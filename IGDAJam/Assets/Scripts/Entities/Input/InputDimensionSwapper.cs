@@ -4,7 +4,6 @@ using FMODUnity;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
-using Display = UI.Display;
 
 namespace Entities
 {
@@ -20,7 +19,6 @@ namespace Entities
         }
 
         [SerializeField] private DimensionData[] dimensions;
-        [SerializeField] private Display currentDimensionDisplay;
         [SerializeField] private Volume transitionVolume;
         [SerializeField] private PlayerInput input;
         [SerializeField] private StudioEventEmitter swapSound;
@@ -44,12 +42,6 @@ namespace Entities
             dimensions[_currentDimensionIndex].background.SetActive(true);
             dimensions[_currentDimensionIndex].volume.weight = 1;
             
-            currentDimensionDisplay.UpdateText($"Current Dimension: {dimensions[_currentDimensionIndex].dimension.name}");
-        }
-
-        private void OnDestroy()
-        {
-            currentDimensionDisplay.UpdateText("");
         }
 
         public void CycleDimensions(InputAction.CallbackContext context)
@@ -88,7 +80,6 @@ namespace Entities
             dimensions[_currentDimensionIndex].dimension.Enter();
             dimensions[_currentDimensionIndex].playerShip.SetActive(true);
             dimensions[_currentDimensionIndex].background.SetActive(true);
-            currentDimensionDisplay.UpdateText($"Current Dimension: {dimensions[_currentDimensionIndex].dimension.name}");
 
             while (elapsedTime <= 0.65f)
             {
