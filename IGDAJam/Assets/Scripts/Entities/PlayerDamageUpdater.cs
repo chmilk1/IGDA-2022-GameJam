@@ -6,13 +6,14 @@ namespace Entities
     public class PlayerDamageUpdater : MonoBehaviour
     {
         public StudioEventEmitter emitter;
-        public Health playerHealth;
+        public Rigidbody2D rb;
+        public float maxSpeed;
         public AnimationCurve curve;
         
         private void Update()
         {
-            float healthPercent = Mathf.Clamp01((float) playerHealth.RemainingHitPoints / playerHealth.MaxHealth);
-            emitter.SetParameter("Health", curve.Evaluate(healthPercent));
+            float speedPercent = Mathf.Clamp01(rb.velocity.magnitude / maxSpeed);
+            emitter.SetParameter("Speed", curve.Evaluate(speedPercent));
         }
     }
 }

@@ -556,7 +556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainAnimator: {fileID: 8050782448271251767}
   engineSprite: {fileID: 4851440143060475713}
-  engineFadeTime: 0.5
+  engineFadeTime: 0.25
   inputMovement: {fileID: 5253297237193525418}
 --- !u!1 &5253297237193525463
 GameObject:
@@ -919,7 +919,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainAnimator: {fileID: 8637516763221363999}
   engineSprite: {fileID: 2275925988801605984}
-  engineFadeTime: 0.5
+  engineFadeTime: 0.25
   inputMovement: {fileID: 5253297237193525418}
 --- !u!1 &6155754246625807140
 GameObject:
@@ -1248,7 +1248,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4305759976994288393
 Transform:
   m_ObjectHideFlags: 0
@@ -1278,11 +1278,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1428039937
-      Data2: 1312610453
-      Data3: 370506914
-      Data4: -1789139058
-    Path: event:/SFX/Playership/Damage/PlayerDamage
+      Data1: -1202550261
+      Data2: 1291623013
+      Data3: -1488056681
+      Data4: -456220105
+    Path: event:/SFX/Playership/Engine/PlayerShip
   Event: 
   PlayEvent: 1
   StopEvent: 2
@@ -1306,25 +1306,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   emitter: {fileID: 4774230560860598889}
-  playerHealth: {fileID: 5253297237193525419}
+  rb: {fileID: 5253297237193525461}
+  maxSpeed: 10
   curve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 0.031740434
-      outSlope: 0.029596746
-      tangentMode: 1
-      weightedMode: 2
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
       inWeight: 0
-      outWeight: 0.6375
+      outWeight: 0
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: 2
-      outSlope: 2
-      tangentMode: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0

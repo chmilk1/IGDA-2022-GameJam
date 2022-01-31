@@ -11,6 +11,7 @@ namespace Entities
         
         private Rigidbody2D _rigidbody2D;
 
+        public float MaxSpeed => movementSpeed * Multiplier;
         public Vector2 InputDirection { get; private set; }
         public float Multiplier { get; set; } = 1f;
         
@@ -22,7 +23,7 @@ namespace Entities
         public void ApplyMovement(InputAction.CallbackContext context)
         {
             InputDirection = context.ReadValue<Vector2>();
-            _rigidbody2D.velocity = InputDirection * (movementSpeed * Multiplier);
+            _rigidbody2D.velocity = InputDirection * MaxSpeed;
         }
     }
 }
