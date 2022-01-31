@@ -122,6 +122,8 @@ MonoBehaviour:
   hitPoints: 1
   destroyOnDeath: 1
   healthDisplay: {fileID: 0}
+  explodes: 0
+  explosion: {fileID: 0}
   isPlayer: 0
   invulnTime: 0
   onDeath:
@@ -345,7 +347,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9008988579381069506, guid: bff07b63dbd135440870b3d6b72e9511, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 9008988579381069506, guid: bff07b63dbd135440870b3d6b72e9511, type: 3}
       propertyPath: m_LocalPosition.z
