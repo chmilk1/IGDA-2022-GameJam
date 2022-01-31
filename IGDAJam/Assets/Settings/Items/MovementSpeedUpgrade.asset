@@ -15,4 +15,4 @@ MonoBehaviour:
   cost: 500
   itemName: Upgraded Engines
   itemDescription: Increase your maximum movement speed.
-  percentIncrease: 1.1
+  percentIncrease: 0.25
