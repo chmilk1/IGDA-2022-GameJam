@@ -274,11 +274,11 @@ MonoBehaviour:
     Path: event:/SFX/Enemies/Metal/Hit
   deathSound:
     Guid:
-      Data1: -37855108
-      Data2: 1146939862
-      Data3: 2020992174
-      Data4: -1915604262
-    Path: event:/Wilhelm
+      Data1: 1938871462
+      Data2: 1328655847
+      Data3: -363004788
+      Data4: -186496013
+    Path: event:/SFX/Enemies/Metal/Die
   onDeath:
     m_PersistentCalls:
       m_Calls: []
