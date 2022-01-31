@@ -9,7 +9,6 @@ public class LaserLogic : MonoBehaviour
     [SerializeField] float activeTime;
 
     [Header("Dependencies")]
-    [SerializeField] BoxCollider2D laserCollider;
     [SerializeField] GameObject laserSprite;
     [SerializeField] GameObject activeLaserSprite;
     [SerializeField] private UnityEvent onLaserEnd;
@@ -32,6 +31,5 @@ public class LaserLogic : MonoBehaviour
     {
         laserSprite.SetActive(false);
         activeLaserSprite.SetActive(true);
-        laserCollider.enabled = true;
     }
 }
