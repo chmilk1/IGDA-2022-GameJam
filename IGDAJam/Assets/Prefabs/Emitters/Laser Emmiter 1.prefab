@@ -44,3 +44,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 90989374803749924, guid: 12fc4bd03c6efc34dbabc62fdf0db628, type: 3}
+  shootSound:
+    Guid:
+      Data1: -1690221482
+      Data2: 1179400051
+      Data3: 1334851505
+      Data4: 1355807107
+    Path: event:/SFX/Enemies/Metal/Laser

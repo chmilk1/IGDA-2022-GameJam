@@ -265,6 +265,20 @@ MonoBehaviour:
   explosion: {fileID: 0}
   isPlayer: 0
   invulnTime: 0
+  damageSound:
+    Guid:
+      Data1: -1660349097
+      Data2: 1074811374
+      Data3: -855498606
+      Data4: 1462197347
+    Path: event:/SFX/Enemies/Metal/Hit
+  deathSound:
+    Guid:
+      Data1: -37855108
+      Data2: 1146939862
+      Data3: 2020992174
+      Data4: -1915604262
+    Path: event:/Wilhelm
   onDeath:
     m_PersistentCalls:
       m_Calls: []

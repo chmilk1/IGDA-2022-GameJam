@@ -1812,6 +1812,46 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5253297237193525419, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
+      propertyPath: deathSound.Path
+      value: event:/SFX/Enemies/Metal/Die
+      objectReference: {fileID: 0}
+    - target: {fileID: 5253297237193525419, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
+      propertyPath: damageSound.Path
+      value: event:/SFX/Enemies/Metal/Hit
+      objectReference: {fileID: 0}
+    - target: {fileID: 5253297237193525419, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
+      propertyPath: deathSound.Guid.Data1
+      value: 1938871462
+      objectReference: {fileID: 0}
+    - target: {fileID: 5253297237193525419, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
+      propertyPath: deathSound.Guid.Data2
+      value: 1328655847
+      objectReference: {fileID: 0}
+    - target: {fileID: 5253297237193525419, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
+      propertyPath: deathSound.Guid.Data3
+      value: -363004788
+      objectReference: {fileID: 0}
+    - target: {fileID: 5253297237193525419, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
+      propertyPath: deathSound.Guid.Data4
+      value: -186496013
+      objectReference: {fileID: 0}
+    - target: {fileID: 5253297237193525419, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
+      propertyPath: damageSound.Guid.Data1
+      value: -1660349097
+      objectReference: {fileID: 0}
+    - target: {fileID: 5253297237193525419, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
+      propertyPath: damageSound.Guid.Data2
+      value: 1074811374
+      objectReference: {fileID: 0}
+    - target: {fileID: 5253297237193525419, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
+      propertyPath: damageSound.Guid.Data3
+      value: -855498606
+      objectReference: {fileID: 0}
+    - target: {fileID: 5253297237193525419, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
+      propertyPath: damageSound.Guid.Data4
+      value: 1462197347
+      objectReference: {fileID: 0}
+    - target: {fileID: 5253297237193525419, guid: 1308d8cbf782c5a409e3b77452642725, type: 3}
       propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.size
       value: 0
       objectReference: {fileID: 0}

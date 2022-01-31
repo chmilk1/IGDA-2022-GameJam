@@ -191,6 +191,13 @@ MonoBehaviour:
   activeTime: 1.5
   laserSprite: {fileID: 7076271102525909476}
   activeLaserSprite: {fileID: 5896279383510736116}
+  shootsound:
+    Guid:
+      Data1: -1029236186
+      Data2: 1214812111
+      Data3: -1402137980
+      Data4: 515851951
+    Path: event:/SFX/Enemies/Bug/Shoot
   onLaserEnd:
     m_PersistentCalls:
       m_Calls:

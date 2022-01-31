@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using FMODUnity;
 using UnityEngine;
 using UnityEngine.Events;
 using Display = UI.Display;
@@ -14,6 +15,8 @@ namespace Entities
         [SerializeField] public GameObject explosion;
         [SerializeField] public bool isPlayer;
         [SerializeField] public float invulnTime;
+        [SerializeField] public EventReference damageSound;
+        [SerializeField] public EventReference deathSound;
 
         [Space(20f)]
         [SerializeField] public UnityEvent<Health> onDeath;
@@ -43,6 +46,7 @@ namespace Entities
             {
                 if (RemainingHitPoints - amount <= 0)
                 {
+                    RuntimeManager.PlayOneShot(deathSound);
                     onDeath.Invoke(this);
                     if (explodes)
                     {
@@ -54,6 +58,7 @@ namespace Entities
 
                 RemainingHitPoints -= amount;
                 onDamage.Invoke(this);
+                RuntimeManager.PlayOneShot(damageSound);
 
                 if (isPlayer)
                 {

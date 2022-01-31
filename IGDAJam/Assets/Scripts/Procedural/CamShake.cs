@@ -21,7 +21,9 @@ public class CamShake : MonoBehaviour
     public IEnumerator shakeC(float shakeTime, float strength)
     {
         Debug.Log("Shakeing");
-        Vector3 origonalPos = transform.localPosition;
+        Transform target = Camera.main.transform;
+
+        Vector3 origonalPos = target.localPosition;
         float passed = 0.0f;
 
         while(passed < shakeTime)
@@ -29,13 +31,13 @@ public class CamShake : MonoBehaviour
             float x = Random.Range(-1f, 1f) * strength;
             float y = Random.Range(-1f, 1f) * strength;
 
-            transform.localPosition = new Vector3(x, y, origonalPos.z);
+            target.localPosition = new Vector3(x, y, origonalPos.z);
 
             passed += Time.deltaTime;
 
             yield return null;
         }
 
-        transform.localPosition = origonalPos;
+        target.localPosition = origonalPos;
     }
 }

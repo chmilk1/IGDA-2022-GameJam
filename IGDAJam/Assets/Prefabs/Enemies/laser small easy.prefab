@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8958083097296541279}
   - component: {fileID: 6273883012391133827}
   - component: {fileID: 2293409365564895718}
+  - component: {fileID: -7327625416303317671}
   m_Layer: 7
   m_Name: laser small easy
   m_TagString: Untagged
@@ -121,14 +122,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitPoints: 1
   destroyOnDeath: 1
-  healthDisplay: {fileID: 0}
   explodes: 0
   explosion: {fileID: 0}
   isPlayer: 0
   invulnTime: 0
+  damageSound:
+    Guid:
+      Data1: 1662198751
+      Data2: 1308807069
+      Data3: 1397636786
+      Data4: -861931070
+    Path: event:/SFX/Enemies/Bug/Hit
+  deathSound:
+    Guid:
+      Data1: -100115351
+      Data2: 1079083003
+      Data3: -211624569
+      Data4: -1120180483
+    Path: event:/SFX/Enemies/Bug/Die
   onDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -7327625416303317671}
+        m_TargetAssemblyTypeName: CamShake, Assembly-CSharp
+        m_MethodName: defaultShake
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -193,6 +219,20 @@ MonoBehaviour:
   targetRenderer: {fileID: 2368553182851707531}
   activeColor: {r: 1, g: 1, b: 1, a: 1}
   inactiveColor: {r: 1, g: 1, b: 1, a: 0.2901961}
+--- !u!114 &-7327625416303317671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014606940093628023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ee6e3000c135642a2113c1fbcfd368, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultTime: 0.12
+  defaultStrength: 0.2
 --- !u!1 &7740365582737947384
 GameObject:
   m_ObjectHideFlags: 0

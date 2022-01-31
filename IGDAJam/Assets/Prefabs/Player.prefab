@@ -113,7 +113,6 @@ GameObject:
   - component: {fileID: 5567063503955828942}
   - component: {fileID: 6137704043816019159}
   - component: {fileID: 6933590146938432024}
-  - component: {fileID: 6033991699163172672}
   m_Layer: 6
   m_Name: Bullet Emitter
   m_TagString: Untagged
@@ -148,6 +147,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 8390754185931423885, guid: d3fb9910134565b4dab9a3e38b788501, type: 3}
+  shootSound:
+    Guid:
+      Data1: 1944781351
+      Data2: 1300773146
+      Data3: -76888415
+      Data4: 1790181562
+    Path: event:/SFX/Playership/Shoot
 --- !u!114 &6933590146938432024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -176,48 +182,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 6033991699163172672}
-        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &6033991699163172672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2483783637113746263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 1944781351
-      Data2: 1300773146
-      Data3: -76888415
-      Data4: 1790181562
-    Path: event:/SFX/Playership/Shoot
-  Event: 
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!1 &2557158091267785460
 GameObject:
   m_ObjectHideFlags: 0
@@ -651,6 +615,20 @@ MonoBehaviour:
   explosion: {fileID: 7681872477206559406, guid: dd0b03ac4d6cf48419cd36a74b3af0d5, type: 3}
   isPlayer: 1
   invulnTime: 0.44
+  damageSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  deathSound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
   onDeath:
     m_PersistentCalls:
       m_Calls:
@@ -1248,7 +1226,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4305759976994288393
 Transform:
   m_ObjectHideFlags: 0

@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 8580092758665628205}
   - component: {fileID: 3174905343139228122}
   - component: {fileID: -2465353428963757305}
+  - component: {fileID: 8235798044419419777}
   m_Layer: 7
   m_Name: bullet medium hard
   m_TagString: Untagged
@@ -135,14 +136,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitPoints: 1
   destroyOnDeath: 1
-  healthDisplay: {fileID: 0}
   explodes: 1
   explosion: {fileID: 5384803662440264104, guid: 6d8906fc438989f4a82e9d2cc73efdff, type: 3}
   isPlayer: 0
   invulnTime: 0
+  damageSound:
+    Guid:
+      Data1: -1660349097
+      Data2: 1074811374
+      Data3: -855498606
+      Data4: 1462197347
+    Path: event:/SFX/Enemies/Metal/Hit
+  deathSound:
+    Guid:
+      Data1: 1938871462
+      Data2: 1328655847
+      Data3: -363004788
+      Data4: -186496013
+    Path: event:/SFX/Enemies/Metal/Die
   onDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8235798044419419777}
+        m_TargetAssemblyTypeName: CamShake, Assembly-CSharp
+        m_MethodName: defaultShake
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -223,6 +249,20 @@ MonoBehaviour:
   ySpeed: 0.05
   yScreenPrecent: 0.75
   rigidbody2d: {fileID: 2014606940093628018}
+--- !u!114 &8235798044419419777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014606940093628023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99ee6e3000c135642a2113c1fbcfd368, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultTime: 0.12
+  defaultStrength: 0.2
 --- !u!1 &2732900922244607520
 GameObject:
   m_ObjectHideFlags: 0
