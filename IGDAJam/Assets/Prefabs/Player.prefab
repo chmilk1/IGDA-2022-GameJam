@@ -291,7 +291,7 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.69}
   m_EdgeRadius: 0
   m_Points:
   - {x: -0.51185143, y: -1.2936718}
@@ -421,7 +421,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4481035618987366580
 Transform:
   m_ObjectHideFlags: 0
@@ -755,7 +755,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &995734546193851818
 Transform:
   m_ObjectHideFlags: 0
@@ -860,6 +860,7 @@ GameObject:
   - component: {fileID: 317773828434369069}
   - component: {fileID: 1722775311752974496}
   - component: {fileID: 8637516763221363999}
+  - component: {fileID: 3485619707040208731}
   m_Layer: 0
   m_Name: Main Sprite
   m_TagString: Untagged
@@ -951,3 +952,27 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!68 &3485619707040208731
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7782175771739207454}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.5865809, y: -0.50605845}
+  - {x: 0.63978547, y: -0.50605845}
+  - {x: -0.008000106, y: 0.69965243}
+  - {x: -0.6153075, y: -0.5060585}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
