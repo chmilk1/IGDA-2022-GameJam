@@ -136,10 +136,15 @@ MonoBehaviour:
   hitPoints: 1
   destroyOnDeath: 1
   healthDisplay: {fileID: 0}
+  isPlayer: 0
+  invulnTime: 0
   onDeath:
     m_PersistentCalls:
       m_Calls: []
   onDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  onHeal:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &6273883012391133827
@@ -154,7 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58a6df6b3fd0464db09d7ca31e8f3dbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentDimension: {fileID: 11400000, guid: 9d8f384fa34f7c742a03952c6e4dbe8d, type: 2}
+  currentDimension: {fileID: 11400000, guid: 46f3599a482ca5647a7f2954a89c3181, type: 2}
   onEnter:
     m_PersistentCalls:
       m_Calls:
@@ -336,7 +341,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 2.3125}
+    oldSize: {x: 1.5312501, y: 1.7585449}
     newSize: {x: 2, y: 2.3125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
