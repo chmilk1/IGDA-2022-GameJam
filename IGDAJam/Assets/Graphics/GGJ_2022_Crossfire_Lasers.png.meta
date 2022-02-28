@@ -1,0 +1,552 @@
+fileFormatVersion: 2
+guid: 4a1b4241dbba442ba94cc5811679ed95
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6130979270601481532
+    second: GGJ_2022_Crossfire_Lasers_0
+  - first:
+      213: 6521026300382523817
+    second: GGJ_2022_Crossfire_Lasers_1
+  - first:
+      213: -7868568186624674757
+    second: GGJ_2022_Crossfire_Lasers_2
+  - first:
+      213: -459460882565931657
+    second: GGJ_2022_Crossfire_Lasers_3
+  - first:
+      213: 4581890698641844970
+    second: GGJ_2022_Crossfire_Lasers_4
+  - first:
+      213: -7116216149099513020
+    second: GGJ_2022_Crossfire_Lasers_5
+  - first:
+      213: -6838432261661602339
+    second: GGJ_2022_Crossfire_Lasers_6
+  - first:
+      213: 8264251895017767874
+    second: GGJ_2022_Crossfire_Lasers_7
+  - first:
+      213: -8184125674297856795
+    second: GGJ_2022_Crossfire_Lasers_8
+  - first:
+      213: -5472465536683927474
+    second: GGJ_2022_Crossfire_Lasers_9
+  - first:
+      213: -7392445600406707140
+    second: GGJ_2022_Crossfire_Lasers_10
+  - first:
+      213: -3962213713814362926
+    second: GGJ_2022_Crossfire_Lasers_11
+  - first:
+      213: -6888427924787414710
+    second: GGJ_2022_Crossfire_Lasers_12
+  - first:
+      213: 6479382388650693893
+    second: GGJ_2022_Crossfire_Lasers_13
+  - first:
+      213: 4302492160770999618
+    second: GGJ_2022_Crossfire_Lasers_14
+  - first:
+      213: 1189958461249504546
+    second: GGJ_2022_Crossfire_Lasers_15
+  - first:
+      213: -920049591590627251
+    second: GGJ_2022_Crossfire_Lasers_16
+  - first:
+      213: -7686628022622922784
+    second: GGJ_2022_Crossfire_Lasers_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Lasers_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 4
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2e38236d26aeaa0800000000000000
+      internalID: -6130979270601481532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Lasers_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 5
+        width: 32
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1b74dced65f7a50800000000000000
+      internalID: 6521026300382523817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Lasers_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 5
+        width: 32
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34fb497cea3dc290800000000000000
+      internalID: -7868568186624674757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Lasers_3
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 2
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d587af2caaf99f0800000000000000
+      internalID: -459460882565931657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Lasers_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 4
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeaa6348055269f30800000000000000
+      internalID: 4581890698641844970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Lasers_5
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 4
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b7600ad1f1e3d90800000000000000
+      internalID: -7116216149099513020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Lasers_6
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 4
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddc61fe6120911a0800000000000000
+      internalID: -6838432261661602339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Lasers_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 5
+        width: 32
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c302e8005580b270800000000000000
+      internalID: 8264251895017767874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Lasers_8
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 5
+        width: 32
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec62528f052c6e80800000000000000
+      internalID: -8184125674297856795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Lasers_9
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 2
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e481368b695ed04b0800000000000000
+      internalID: -5472465536683927474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Lasers_10
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 4
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34eb5ea4e1c86990800000000000000
+      internalID: -7392445600406707140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Lasers_11
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 4
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4e9e7be936309c0800000000000000
+      internalID: -3962213713814362926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Lasers_12
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 4
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a493a228c436760a0800000000000000
+      internalID: -6888427924787414710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Lasers_13
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 5
+        width: 32
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505527704f36be950800000000000000
+      internalID: 6479382388650693893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Lasers_14
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 5
+        width: 32
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24588ab13d585bb30800000000000000
+      internalID: 4302492160770999618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Lasers_15
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 2
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2254f347ae4938010800000000000000
+      internalID: 1189958461249504546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Lasers_16
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 4
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d485f7565c35b33f0800000000000000
+      internalID: -920049591590627251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GGJ_2022_Crossfire_Lasers_17
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 4
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e75ff6f98c935590800000000000000
+      internalID: -7686628022622922784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{250bf011-6dbb-45f2-a7d8-779c16b485da}">
+		<property name="name">
+			<value>Alt &amp; M</value>
+		</property>
+		<relationship name="folder">
+			<destination>{12265f38-ba83-4d4f-b146-0a80d9c2744a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6d0ee0ce-f2a3-47d0-bf46-b0907ac3a453}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6d0ee0ce-f2a3-47d0-bf46-b0907ac3a453}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.5</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{dd6e83b4-0662-4be3-b44b-37215f304c3c}">
+		<property name="assetPath">
+			<value>Alt Space.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>109.24136054421768</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7e2d05cc-2dfc-4e37-91a9-86340d7aead9}</destination>
+		</relationship>
+	</object>
+</objects>
